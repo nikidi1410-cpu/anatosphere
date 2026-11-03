@@ -1,0 +1,7812 @@
+{
+ "assetId": "body",
+ "kind": "anatomical",
+ "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International",
+ "modifications": "Modified for AnatoSphere 3D: subset selected, meshes merged, converted to GLB, geometry simplified.",
+ "sourceLicense": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/"
+ },
+ "license": {
+  "name": "CC BY-SA 4.0",
+  "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+ },
+ "sourceUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+ "layers": [
+  {
+   "id": "skin",
+   "nodeName": "Layer_skin",
+   "glbUrl": "/models/body/skin.glb",
+   "defaultVisible": false,
+   "bytes": 967332,
+   "triangles": 40674
+  },
+  {
+   "id": "muscles",
+   "nodeName": "Layer_muscles",
+   "glbUrl": "/models/body/muscles.glb",
+   "defaultVisible": false,
+   "bytes": 12805360,
+   "triangles": 479436
+  },
+  {
+   "id": "skeleton",
+   "nodeName": "Layer_skeleton",
+   "glbUrl": "/models/body/skeleton.glb",
+   "defaultVisible": true,
+   "bytes": 5267704,
+   "triangles": 183208
+  },
+  {
+   "id": "organs",
+   "nodeName": "Layer_organs",
+   "glbUrl": "/models/body/organs.glb",
+   "defaultVisible": true,
+   "bytes": 4586160,
+   "triangles": 178460
+  }
+ ],
+ "structures": [
+  {
+   "id": "skin:FMA7163",
+   "layerId": "skin",
+   "systemId": "integumentary",
+   "nodeName": "Skin_FMA7163",
+   "label": "Skin",
+   "conceptId": "FMA7163",
+   "elementFileIds": [
+    "FJ2810"
+   ]
+  },
+  {
+   "id": "muscles:FMA49051",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_inferior_oblique_FMA49051",
+   "label": "Left inferior oblique",
+   "conceptId": "FMA49051",
+   "elementFileIds": [
+    "FJ1294"
+   ]
+  },
+  {
+   "id": "muscles:FMA49047",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_inferior_rectus_FMA49047",
+   "label": "Left inferior rectus",
+   "conceptId": "FMA49047",
+   "elementFileIds": [
+    "FJ1295"
+   ]
+  },
+  {
+   "id": "muscles:FMA49055",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_lateral_rectus_FMA49055",
+   "label": "Left lateral rectus",
+   "conceptId": "FMA49055",
+   "elementFileIds": [
+    "FJ1304"
+   ]
+  },
+  {
+   "id": "muscles:FMA49049",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_levator_palpebrae_superioris_FMA49049",
+   "label": "Left levator palpebrae superioris",
+   "conceptId": "FMA49049",
+   "elementFileIds": [
+    "FJ1306"
+   ]
+  },
+  {
+   "id": "muscles:FMA49057",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_medial_rectus_FMA49057",
+   "label": "Left medial rectus",
+   "conceptId": "FMA49057",
+   "elementFileIds": [
+    "FJ1308"
+   ]
+  },
+  {
+   "id": "muscles:FMA49053",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_superior_oblique_FMA49053",
+   "label": "Left superior oblique",
+   "conceptId": "FMA49053",
+   "elementFileIds": [
+    "FJ1322"
+   ]
+  },
+  {
+   "id": "muscles:FMA49045",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_superior_rectus_FMA49045",
+   "label": "Left superior rectus",
+   "conceptId": "FMA49045",
+   "elementFileIds": [
+    "FJ1323"
+   ]
+  },
+  {
+   "id": "muscles:FMA49050",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_inferior_oblique_FMA49050",
+   "label": "Right inferior oblique",
+   "conceptId": "FMA49050",
+   "elementFileIds": [
+    "FJ1345"
+   ]
+  },
+  {
+   "id": "muscles:FMA49046",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_inferior_rectus_FMA49046",
+   "label": "Right inferior rectus",
+   "conceptId": "FMA49046",
+   "elementFileIds": [
+    "FJ1346"
+   ]
+  },
+  {
+   "id": "muscles:FMA49054",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_lateral_rectus_FMA49054",
+   "label": "Right lateral rectus",
+   "conceptId": "FMA49054",
+   "elementFileIds": [
+    "FJ1355"
+   ]
+  },
+  {
+   "id": "muscles:FMA49048",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_levator_palpebrae_superioris_FMA49048",
+   "label": "Right levator palpebrae superioris",
+   "conceptId": "FMA49048",
+   "elementFileIds": [
+    "FJ1357"
+   ]
+  },
+  {
+   "id": "muscles:FMA49056",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_medial_rectus_FMA49056",
+   "label": "Right medial rectus",
+   "conceptId": "FMA49056",
+   "elementFileIds": [
+    "FJ1359"
+   ]
+  },
+  {
+   "id": "muscles:FMA49052",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_superior_oblique_FMA49052",
+   "label": "Right superior oblique",
+   "conceptId": "FMA49052",
+   "elementFileIds": [
+    "FJ1373"
+   ]
+  },
+  {
+   "id": "muscles:FMA49044",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_superior_rectus_FMA49044",
+   "label": "Right superior rectus",
+   "conceptId": "FMA49044",
+   "elementFileIds": [
+    "FJ1374"
+   ]
+  },
+  {
+   "id": "muscles:FMA37717",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "First_lumbrical_of_right_foot_FMA37717",
+   "label": "First lumbrical of right foot",
+   "conceptId": "FMA37717",
+   "elementFileIds": [
+    "FJ1383"
+   ]
+  },
+  {
+   "id": "muscles:FMA37718",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "First_lumbrical_of_left_foot_FMA37718",
+   "label": "First lumbrical of left foot",
+   "conceptId": "FMA37718",
+   "elementFileIds": [
+    "FJ1383M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37745",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "First_plantar_interosseous_of_right_foot_FMA37745",
+   "label": "First plantar interosseous of right foot",
+   "conceptId": "FMA37745",
+   "elementFileIds": [
+    "FJ1384"
+   ]
+  },
+  {
+   "id": "muscles:FMA37746",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "First_plantar_interosseous_of_left_foot_FMA37746",
+   "label": "First plantar interosseous of left foot",
+   "conceptId": "FMA37746",
+   "elementFileIds": [
+    "FJ1384M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37719",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Second_lumbrical_of_right_foot_FMA37719",
+   "label": "Second lumbrical of right foot",
+   "conceptId": "FMA37719",
+   "elementFileIds": [
+    "FJ1385"
+   ]
+  },
+  {
+   "id": "muscles:FMA37720",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Second_lumbrical_of_left_foot_FMA37720",
+   "label": "Second lumbrical of left foot",
+   "conceptId": "FMA37720",
+   "elementFileIds": [
+    "FJ1385M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37743",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Second_plantar_interosseous_of_right_foot_FMA37743",
+   "label": "Second plantar interosseous of right foot",
+   "conceptId": "FMA37743",
+   "elementFileIds": [
+    "FJ1386"
+   ]
+  },
+  {
+   "id": "muscles:FMA37744",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Second_plantar_interosseous_of_left_foot_FMA37744",
+   "label": "Second plantar interosseous of left foot",
+   "conceptId": "FMA37744",
+   "elementFileIds": [
+    "FJ1386M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37485",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Third_lumbrical_of_right_foot_FMA37485",
+   "label": "Third lumbrical of right foot",
+   "conceptId": "FMA37485",
+   "elementFileIds": [
+    "FJ1387"
+   ]
+  },
+  {
+   "id": "muscles:FMA37486",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Third_lumbrical_of_left_foot_FMA37486",
+   "label": "Third lumbrical of left foot",
+   "conceptId": "FMA37486",
+   "elementFileIds": [
+    "FJ1387M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37741",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Third_plantar_interosseous_of_right_foot_FMA37741",
+   "label": "Third plantar interosseous of right foot",
+   "conceptId": "FMA37741",
+   "elementFileIds": [
+    "FJ1388"
+   ]
+  },
+  {
+   "id": "muscles:FMA37742",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Third_plantar_interosseous_of_left_foot_FMA37742",
+   "label": "Third plantar interosseous of left foot",
+   "conceptId": "FMA37742",
+   "elementFileIds": [
+    "FJ1388M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37483",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Fourth_lumbrical_of_right_foot_FMA37483",
+   "label": "Fourth lumbrical of right foot",
+   "conceptId": "FMA37483",
+   "elementFileIds": [
+    "FJ1389"
+   ]
+  },
+  {
+   "id": "muscles:FMA37484",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Fourth_lumbrical_of_left_foot_FMA37484",
+   "label": "Fourth lumbrical of left foot",
+   "conceptId": "FMA37484",
+   "elementFileIds": [
+    "FJ1389M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37463",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Abductor_digiti_minimi_of_right_foot_FMA37463",
+   "label": "Abductor digiti minimi of right foot",
+   "conceptId": "FMA37463",
+   "elementFileIds": [
+    "FJ1390"
+   ]
+  },
+  {
+   "id": "muscles:FMA37464",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Abductor_digiti_minimi_of_left_foot_FMA37464",
+   "label": "Abductor digiti minimi of left foot",
+   "conceptId": "FMA37464",
+   "elementFileIds": [
+    "FJ1390M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37471",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Flexor_digiti_minimi_brevis_of_right_foot_FMA37471",
+   "label": "Flexor digiti minimi brevis of right foot",
+   "conceptId": "FMA37471",
+   "elementFileIds": [
+    "FJ1391"
+   ]
+  },
+  {
+   "id": "muscles:FMA37472",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Flexor_digiti_minimi_brevis_of_left_foot_FMA37472",
+   "label": "Flexor digiti minimi brevis of left foot",
+   "conceptId": "FMA37472",
+   "elementFileIds": [
+    "FJ1391M"
+   ]
+  },
+  {
+   "id": "muscles:FMA86034",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Opponens_digiti_minimi_of_right_foot_FMA86034",
+   "label": "Opponens digiti minimi of right foot",
+   "conceptId": "FMA86034",
+   "elementFileIds": [
+    "FJ1399"
+   ]
+  },
+  {
+   "id": "muscles:FMA86035",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Opponens_digiti_minimi_of_left_foot_FMA86035",
+   "label": "Opponens digiti minimi of left foot",
+   "conceptId": "FMA86035",
+   "elementFileIds": [
+    "FJ1399M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37459",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_abductor_hallucis_FMA37459",
+   "label": "Right abductor hallucis",
+   "conceptId": "FMA37459",
+   "elementFileIds": [
+    "FJ1400"
+   ]
+  },
+  {
+   "id": "muscles:FMA37460",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_abductor_hallucis_FMA37460",
+   "label": "Left abductor hallucis",
+   "conceptId": "FMA37460",
+   "elementFileIds": [
+    "FJ1400M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22452",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_adductor_brevis_FMA22452",
+   "label": "Right adductor brevis",
+   "conceptId": "FMA22452",
+   "elementFileIds": [
+    "FJ1401"
+   ]
+  },
+  {
+   "id": "muscles:FMA22454",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_adductor_brevis_FMA22454",
+   "label": "Left adductor brevis",
+   "conceptId": "FMA22454",
+   "elementFileIds": [
+    "FJ1401M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22456",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_adductor_longus_FMA22456",
+   "label": "Right adductor longus",
+   "conceptId": "FMA22456",
+   "elementFileIds": [
+    "FJ1402"
+   ]
+  },
+  {
+   "id": "muscles:FMA22457",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_adductor_longus_FMA22457",
+   "label": "Left adductor longus",
+   "conceptId": "FMA22457",
+   "elementFileIds": [
+    "FJ1402M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22459",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_adductor_magnus_FMA22459",
+   "label": "Right adductor magnus",
+   "conceptId": "FMA22459",
+   "elementFileIds": [
+    "FJ1403"
+   ]
+  },
+  {
+   "id": "muscles:FMA22460",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_adductor_magnus_FMA22460",
+   "label": "Left adductor magnus",
+   "conceptId": "FMA22460",
+   "elementFileIds": [
+    "FJ1403M"
+   ]
+  },
+  {
+   "id": "muscles:FMA43886",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_adductor_minimus_FMA43886",
+   "label": "Right adductor minimus",
+   "conceptId": "FMA43886",
+   "elementFileIds": [
+    "FJ1404"
+   ]
+  },
+  {
+   "id": "muscles:FMA43887",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_adductor_minimus_FMA43887",
+   "label": "Left adductor minimus",
+   "conceptId": "FMA43887",
+   "elementFileIds": [
+    "FJ1404M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22548",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_extensor_digitorum_longus_FMA22548",
+   "label": "Right extensor digitorum longus",
+   "conceptId": "FMA22548",
+   "elementFileIds": [
+    "FJ1406"
+   ]
+  },
+  {
+   "id": "muscles:FMA22549",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_extensor_digitorum_longus_FMA22549",
+   "label": "Left extensor digitorum longus",
+   "conceptId": "FMA22549",
+   "elementFileIds": [
+    "FJ1406M"
+   ]
+  },
+  {
+   "id": "muscles:FMA51144",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_extensor_hallucis_brevis_FMA51144",
+   "label": "Right extensor hallucis brevis",
+   "conceptId": "FMA51144",
+   "elementFileIds": [
+    "FJ1407"
+   ]
+  },
+  {
+   "id": "muscles:FMA51145",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_extensor_hallucis_brevis_FMA51145",
+   "label": "Left extensor hallucis brevis",
+   "conceptId": "FMA51145",
+   "elementFileIds": [
+    "FJ1407M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22546",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_extensor_hallucis_longus_FMA22546",
+   "label": "Right extensor hallucis longus",
+   "conceptId": "FMA22546",
+   "elementFileIds": [
+    "FJ1408"
+   ]
+  },
+  {
+   "id": "muscles:FMA22547",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_extensor_hallucis_longus_FMA22547",
+   "label": "Left extensor hallucis longus",
+   "conceptId": "FMA22547",
+   "elementFileIds": [
+    "FJ1408M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22554",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_fibularis_brevis_FMA22554",
+   "label": "Right fibularis brevis",
+   "conceptId": "FMA22554",
+   "elementFileIds": [
+    "FJ1409"
+   ]
+  },
+  {
+   "id": "muscles:FMA22555",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_fibularis_brevis_FMA22555",
+   "label": "Left fibularis brevis",
+   "conceptId": "FMA22555",
+   "elementFileIds": [
+    "FJ1409M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22552",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_fibularis_longus_FMA22552",
+   "label": "Right fibularis longus",
+   "conceptId": "FMA22552",
+   "elementFileIds": [
+    "FJ1410"
+   ]
+  },
+  {
+   "id": "muscles:FMA22553",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_fibularis_longus_FMA22553",
+   "label": "Left fibularis longus",
+   "conceptId": "FMA22553",
+   "elementFileIds": [
+    "FJ1410M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22550",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_fibularis_tertius_FMA22550",
+   "label": "Right fibularis tertius",
+   "conceptId": "FMA22550",
+   "elementFileIds": [
+    "FJ1411"
+   ]
+  },
+  {
+   "id": "muscles:FMA22551",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_fibularis_tertius_FMA22551",
+   "label": "Left fibularis tertius",
+   "conceptId": "FMA22551",
+   "elementFileIds": [
+    "FJ1411M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37465",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_flexor_accessorius_FMA37465",
+   "label": "Right flexor accessorius",
+   "conceptId": "FMA37465",
+   "elementFileIds": [
+    "FJ1412"
+   ]
+  },
+  {
+   "id": "muscles:FMA37466",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_flexor_accessorius_FMA37466",
+   "label": "Left flexor accessorius",
+   "conceptId": "FMA37466",
+   "elementFileIds": [
+    "FJ1412M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37461",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_flexor_digitorum_brevis_FMA37461",
+   "label": "Right flexor digitorum brevis",
+   "conceptId": "FMA37461",
+   "elementFileIds": [
+    "FJ1413"
+   ]
+  },
+  {
+   "id": "muscles:FMA37462",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_flexor_digitorum_brevis_FMA37462",
+   "label": "Left flexor digitorum brevis",
+   "conceptId": "FMA37462",
+   "elementFileIds": [
+    "FJ1413M"
+   ]
+  },
+  {
+   "id": "muscles:FMA65016",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_flexor_digitorum_longus_FMA65016",
+   "label": "Right flexor digitorum longus",
+   "conceptId": "FMA65016",
+   "elementFileIds": [
+    "FJ1414"
+   ]
+  },
+  {
+   "id": "muscles:FMA65017",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_flexor_digitorum_longus_FMA65017",
+   "label": "Left flexor digitorum longus",
+   "conceptId": "FMA65017",
+   "elementFileIds": [
+    "FJ1414M"
+   ]
+  },
+  {
+   "id": "muscles:FMA65014",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_flexor_hallucis_longus_FMA65014",
+   "label": "Right flexor hallucis longus",
+   "conceptId": "FMA65014",
+   "elementFileIds": [
+    "FJ1415"
+   ]
+  },
+  {
+   "id": "muscles:FMA65015",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_flexor_hallucis_longus_FMA65015",
+   "label": "Left flexor hallucis longus",
+   "conceptId": "FMA65015",
+   "elementFileIds": [
+    "FJ1415M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22336",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_gemellus_inferior_FMA22336",
+   "label": "Right gemellus inferior",
+   "conceptId": "FMA22336",
+   "elementFileIds": [
+    "FJ1416"
+   ]
+  },
+  {
+   "id": "muscles:FMA22337",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_gemellus_inferior_FMA22337",
+   "label": "Left gemellus inferior",
+   "conceptId": "FMA22337",
+   "elementFileIds": [
+    "FJ1416M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22334",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_gemellus_superior_FMA22334",
+   "label": "Right gemellus superior",
+   "conceptId": "FMA22334",
+   "elementFileIds": [
+    "FJ1417"
+   ]
+  },
+  {
+   "id": "muscles:FMA22335",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_gemellus_superior_FMA22335",
+   "label": "Left gemellus superior",
+   "conceptId": "FMA22335",
+   "elementFileIds": [
+    "FJ1417M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22328",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_gluteus_maximus_FMA22328",
+   "label": "Right gluteus maximus",
+   "conceptId": "FMA22328",
+   "elementFileIds": [
+    "FJ1418"
+   ]
+  },
+  {
+   "id": "muscles:FMA22329",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_gluteus_maximus_FMA22329",
+   "label": "Left gluteus maximus",
+   "conceptId": "FMA22329",
+   "elementFileIds": [
+    "FJ1418M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22330",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_gluteus_medius_FMA22330",
+   "label": "Right gluteus medius",
+   "conceptId": "FMA22330",
+   "elementFileIds": [
+    "FJ1419"
+   ]
+  },
+  {
+   "id": "muscles:FMA22331",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_gluteus_medius_FMA22331",
+   "label": "Left gluteus medius",
+   "conceptId": "FMA22331",
+   "elementFileIds": [
+    "FJ1419M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22332",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_gluteus_minimus_FMA22332",
+   "label": "Right gluteus minimus",
+   "conceptId": "FMA22332",
+   "elementFileIds": [
+    "FJ1420"
+   ]
+  },
+  {
+   "id": "muscles:FMA22333",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_gluteus_minimus_FMA22333",
+   "label": "Left gluteus minimus",
+   "conceptId": "FMA22333",
+   "elementFileIds": [
+    "FJ1420M"
+   ]
+  },
+  {
+   "id": "muscles:FMA43883",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_gracilis_FMA43883",
+   "label": "Right gracilis",
+   "conceptId": "FMA43883",
+   "elementFileIds": [
+    "FJ1421"
+   ]
+  },
+  {
+   "id": "muscles:FMA43884",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_gracilis_FMA43884",
+   "label": "Left gracilis",
+   "conceptId": "FMA43884",
+   "elementFileIds": [
+    "FJ1421M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22322",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_iliacus_FMA22322",
+   "label": "Right iliacus",
+   "conceptId": "FMA22322",
+   "elementFileIds": [
+    "FJ1422"
+   ]
+  },
+  {
+   "id": "muscles:FMA22323",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_iliacus_FMA22323",
+   "label": "Left iliacus",
+   "conceptId": "FMA22323",
+   "elementFileIds": [
+    "FJ1422M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22326",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_obturator_externus_FMA22326",
+   "label": "Right obturator externus",
+   "conceptId": "FMA22326",
+   "elementFileIds": [
+    "FJ1425"
+   ]
+  },
+  {
+   "id": "muscles:FMA22327",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_obturator_externus_FMA22327",
+   "label": "Left obturator externus",
+   "conceptId": "FMA22327",
+   "elementFileIds": [
+    "FJ1425M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22324",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_obturator_internus_FMA22324",
+   "label": "Right obturator internus",
+   "conceptId": "FMA22324",
+   "elementFileIds": [
+    "FJ1426"
+   ]
+  },
+  {
+   "id": "muscles:FMA22325",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_obturator_internus_FMA22325",
+   "label": "Left obturator internus",
+   "conceptId": "FMA22325",
+   "elementFileIds": [
+    "FJ1426M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22450",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_pectineus_FMA22450",
+   "label": "Right pectineus",
+   "conceptId": "FMA22450",
+   "elementFileIds": [
+    "FJ1427"
+   ]
+  },
+  {
+   "id": "muscles:FMA22451",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_pectineus_FMA22451",
+   "label": "Left pectineus",
+   "conceptId": "FMA22451",
+   "elementFileIds": [
+    "FJ1427M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22340",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_piriformis_FMA22340",
+   "label": "Right piriformis",
+   "conceptId": "FMA22340",
+   "elementFileIds": [
+    "FJ1428"
+   ]
+  },
+  {
+   "id": "muscles:FMA22341",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_piriformis_FMA22341",
+   "label": "Left piriformis",
+   "conceptId": "FMA22341",
+   "elementFileIds": [
+    "FJ1428M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22560",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_plantaris_FMA22560",
+   "label": "Right plantaris",
+   "conceptId": "FMA22560",
+   "elementFileIds": [
+    "FJ1429"
+   ]
+  },
+  {
+   "id": "muscles:FMA22561",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_plantaris_FMA22561",
+   "label": "Left plantaris",
+   "conceptId": "FMA22561",
+   "elementFileIds": [
+    "FJ1429M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22591",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_popliteus_FMA22591",
+   "label": "Right popliteus",
+   "conceptId": "FMA22591",
+   "elementFileIds": [
+    "FJ1430"
+   ]
+  },
+  {
+   "id": "muscles:FMA22592",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_popliteus_FMA22592",
+   "label": "Left popliteus",
+   "conceptId": "FMA22592",
+   "elementFileIds": [
+    "FJ1430M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22342",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_psoas_major_FMA22342",
+   "label": "Right psoas major",
+   "conceptId": "FMA22342",
+   "elementFileIds": [
+    "FJ1431"
+   ]
+  },
+  {
+   "id": "muscles:FMA22343",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_psoas_major_FMA22343",
+   "label": "Left psoas major",
+   "conceptId": "FMA22343",
+   "elementFileIds": [
+    "FJ1431M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22338",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_quadratus_femoris_FMA22338",
+   "label": "Right quadratus femoris",
+   "conceptId": "FMA22338",
+   "elementFileIds": [
+    "FJ1432"
+   ]
+  },
+  {
+   "id": "muscles:FMA22339",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_quadratus_femoris_FMA22339",
+   "label": "Left quadratus femoris",
+   "conceptId": "FMA22339",
+   "elementFileIds": [
+    "FJ1432M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22354",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_sartorius_FMA22354",
+   "label": "Right sartorius",
+   "conceptId": "FMA22354",
+   "elementFileIds": [
+    "FJ1434"
+   ]
+  },
+  {
+   "id": "muscles:FMA22355",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_sartorius_FMA22355",
+   "label": "Left sartorius",
+   "conceptId": "FMA22355",
+   "elementFileIds": [
+    "FJ1434M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22448",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_semimembranosus_FMA22448",
+   "label": "Right semimembranosus",
+   "conceptId": "FMA22448",
+   "elementFileIds": [
+    "FJ1435"
+   ]
+  },
+  {
+   "id": "muscles:FMA22449",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_semimembranosus_FMA22449",
+   "label": "Left semimembranosus",
+   "conceptId": "FMA22449",
+   "elementFileIds": [
+    "FJ1435M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22358",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_semitendinosus_FMA22358",
+   "label": "Right semitendinosus",
+   "conceptId": "FMA22358",
+   "elementFileIds": [
+    "FJ1436"
+   ]
+  },
+  {
+   "id": "muscles:FMA22359",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_semitendinosus_FMA22359",
+   "label": "Left semitendinosus",
+   "conceptId": "FMA22359",
+   "elementFileIds": [
+    "FJ1436M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22558",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_soleus_FMA22558",
+   "label": "Right soleus",
+   "conceptId": "FMA22558",
+   "elementFileIds": [
+    "FJ1437"
+   ]
+  },
+  {
+   "id": "muscles:FMA22559",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_soleus_FMA22559",
+   "label": "Left soleus",
+   "conceptId": "FMA22559",
+   "elementFileIds": [
+    "FJ1437M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22425",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_tensor_fasciae_latae_FMA22425",
+   "label": "Right tensor fasciae latae",
+   "conceptId": "FMA22425",
+   "elementFileIds": [
+    "FJ1438"
+   ]
+  },
+  {
+   "id": "muscles:FMA22426",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_tensor_fasciae_latae_FMA22426",
+   "label": "Left tensor fasciae latae",
+   "conceptId": "FMA22426",
+   "elementFileIds": [
+    "FJ1438M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22544",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_tibialis_anterior_FMA22544",
+   "label": "Right tibialis anterior",
+   "conceptId": "FMA22544",
+   "elementFileIds": [
+    "FJ1439"
+   ]
+  },
+  {
+   "id": "muscles:FMA22545",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_tibialis_anterior_FMA22545",
+   "label": "Left tibialis anterior",
+   "conceptId": "FMA22545",
+   "elementFileIds": [
+    "FJ1439M"
+   ]
+  },
+  {
+   "id": "muscles:FMA65018",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_tibialis_posterior_FMA65018",
+   "label": "Right tibialis posterior",
+   "conceptId": "FMA65018",
+   "elementFileIds": [
+    "FJ1440"
+   ]
+  },
+  {
+   "id": "muscles:FMA65019",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_tibialis_posterior_FMA65019",
+   "label": "Left tibialis posterior",
+   "conceptId": "FMA65019",
+   "elementFileIds": [
+    "FJ1440M"
+   ]
+  },
+  {
+   "id": "muscles:FMA46444",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_coccygeus_FMA46444",
+   "label": "Left coccygeus",
+   "conceptId": "FMA46444",
+   "elementFileIds": [
+    "FJ1449M",
+    "FJ2542"
+   ]
+  },
+  {
+   "id": "muscles:FMA21930",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "External_anal_sphincter_FMA21930",
+   "label": "External anal sphincter",
+   "conceptId": "FMA21930",
+   "elementFileIds": [
+    "FJ1450",
+    "FJ1450M",
+    "FJ2543",
+    "FJ2548"
+   ]
+  },
+  {
+   "id": "muscles:FMA9756",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "External_intercostal_muscle_FMA9756",
+   "label": "External intercostal muscle",
+   "conceptId": "FMA9756",
+   "elementFileIds": [
+    "FJ1451",
+    "FJ1451M"
+   ]
+  },
+  {
+   "id": "muscles:FMA13336",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_external_oblique_FMA13336",
+   "label": "Right external oblique",
+   "conceptId": "FMA13336",
+   "elementFileIds": [
+    "FJ1452"
+   ]
+  },
+  {
+   "id": "muscles:FMA13337",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_external_oblique_FMA13337",
+   "label": "Left external oblique",
+   "conceptId": "FMA13337",
+   "elementFileIds": [
+    "FJ1452M"
+   ]
+  },
+  {
+   "id": "muscles:FMA9758",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Innermost_intercostal_muscle_FMA9758",
+   "label": "Innermost intercostal muscle",
+   "conceptId": "FMA9758",
+   "elementFileIds": [
+    "FJ1454",
+    "FJ1454M"
+   ]
+  },
+  {
+   "id": "muscles:FMA9757",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Internal_intercostal_muscle_FMA9757",
+   "label": "Internal intercostal muscle",
+   "conceptId": "FMA9757",
+   "elementFileIds": [
+    "FJ1455",
+    "FJ1455M"
+   ]
+  },
+  {
+   "id": "muscles:FMA13375",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_pectoralis_minor_FMA13375",
+   "label": "Right pectoralis minor",
+   "conceptId": "FMA13375",
+   "elementFileIds": [
+    "FJ1456"
+   ]
+  },
+  {
+   "id": "muscles:FMA13376",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_pectoralis_minor_FMA13376",
+   "label": "Left pectoralis minor",
+   "conceptId": "FMA13376",
+   "elementFileIds": [
+    "FJ1456M"
+   ]
+  },
+  {
+   "id": "muscles:FMA13398",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_serratus_anterior_FMA13398",
+   "label": "Right serratus anterior",
+   "conceptId": "FMA13398",
+   "elementFileIds": [
+    "FJ1459"
+   ]
+  },
+  {
+   "id": "muscles:FMA13399",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_serratus_anterior_FMA13399",
+   "label": "Left serratus anterior",
+   "conceptId": "FMA13399",
+   "elementFileIds": [
+    "FJ1459M"
+   ]
+  },
+  {
+   "id": "muscles:FMA13412",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_subclavius_FMA13412",
+   "label": "Right subclavius",
+   "conceptId": "FMA13412",
+   "elementFileIds": [
+    "FJ1460"
+   ]
+  },
+  {
+   "id": "muscles:FMA13411",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_subclavius_FMA13411",
+   "label": "Left subclavius",
+   "conceptId": "FMA13411",
+   "elementFileIds": [
+    "FJ1460M"
+   ]
+  },
+  {
+   "id": "muscles:FMA9761",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_transversus_thoracis_FMA9761",
+   "label": "Right transversus thoracis",
+   "conceptId": "FMA9761",
+   "elementFileIds": [
+    "FJ1461"
+   ]
+  },
+  {
+   "id": "muscles:FMA9762",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_transversus_thoracis_FMA9762",
+   "label": "Left transversus thoracis",
+   "conceptId": "FMA9762",
+   "elementFileIds": [
+    "FJ1461M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37396",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Abductor_digiti_minimi_of_right_hand_FMA37396",
+   "label": "Abductor digiti minimi of right hand",
+   "conceptId": "FMA37396",
+   "elementFileIds": [
+    "FJ1466"
+   ]
+  },
+  {
+   "id": "muscles:FMA37397",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Abductor_digiti_minimi_of_left_hand_FMA37397",
+   "label": "Abductor digiti minimi of left hand",
+   "conceptId": "FMA37397",
+   "elementFileIds": [
+    "FJ1466M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37389",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_flexor_pollicis_brevis_FMA37389",
+   "label": "Left flexor pollicis brevis",
+   "conceptId": "FMA37389",
+   "elementFileIds": [
+    "FJ1469"
+   ]
+  },
+  {
+   "id": "muscles:FMA37388",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_flexor_pollicis_brevis_FMA37388",
+   "label": "Right flexor pollicis brevis",
+   "conceptId": "FMA37388",
+   "elementFileIds": [
+    "FJ1469M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37398",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Flexor_digiti_minimi_brevis_of_right_hand_FMA37398",
+   "label": "Flexor digiti minimi brevis of right hand",
+   "conceptId": "FMA37398",
+   "elementFileIds": [
+    "FJ1470"
+   ]
+  },
+  {
+   "id": "muscles:FMA37399",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Flexor_digiti_minimi_brevis_of_left_hand_FMA37399",
+   "label": "Flexor digiti minimi brevis of left hand",
+   "conceptId": "FMA37399",
+   "elementFileIds": [
+    "FJ1470M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38507",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_extensor_carpi_ulnaris_FMA38507",
+   "label": "Right extensor carpi ulnaris",
+   "conceptId": "FMA38507",
+   "elementFileIds": [
+    "FJ1472",
+    "FJ1517"
+   ]
+  },
+  {
+   "id": "muscles:FMA38508",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_extensor_carpi_ulnaris_FMA38508",
+   "label": "Left extensor carpi ulnaris",
+   "conceptId": "FMA38508",
+   "elementFileIds": [
+    "FJ1472M",
+    "FJ1517M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38470",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_flexor_digitorum_superficialis_FMA38470",
+   "label": "Right flexor digitorum superficialis",
+   "conceptId": "FMA38470",
+   "elementFileIds": [
+    "FJ1475",
+    "FJ1499"
+   ]
+  },
+  {
+   "id": "muscles:FMA38471",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_flexor_digitorum_superficialis_FMA38471",
+   "label": "Left flexor digitorum superficialis",
+   "conceptId": "FMA38471",
+   "elementFileIds": [
+    "FJ1475M",
+    "FJ1499M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37400",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Opponens_digiti_minimi_of_right_hand_FMA37400",
+   "label": "Opponens digiti minimi of right hand",
+   "conceptId": "FMA37400",
+   "elementFileIds": [
+    "FJ1482"
+   ]
+  },
+  {
+   "id": "muscles:FMA37401",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Opponens_digiti_minimi_of_left_hand_FMA37401",
+   "label": "Opponens digiti minimi of left hand",
+   "conceptId": "FMA37401",
+   "elementFileIds": [
+    "FJ1482M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37386",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_abductor_pollicis_brevis_FMA37386",
+   "label": "Right abductor pollicis brevis",
+   "conceptId": "FMA37386",
+   "elementFileIds": [
+    "FJ1483"
+   ]
+  },
+  {
+   "id": "muscles:FMA37387",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_abductor_pollicis_brevis_FMA37387",
+   "label": "Left abductor pollicis brevis",
+   "conceptId": "FMA37387",
+   "elementFileIds": [
+    "FJ1483M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38516",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_abductor_pollicis_longus_FMA38516",
+   "label": "Right abductor pollicis longus",
+   "conceptId": "FMA38516",
+   "elementFileIds": [
+    "FJ1484"
+   ]
+  },
+  {
+   "id": "muscles:FMA38517",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_abductor_pollicis_longus_FMA38517",
+   "label": "Left abductor pollicis longus",
+   "conceptId": "FMA38517",
+   "elementFileIds": [
+    "FJ1484M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37705",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_anconeus_FMA37705",
+   "label": "Right anconeus",
+   "conceptId": "FMA37705",
+   "elementFileIds": [
+    "FJ1485"
+   ]
+  },
+  {
+   "id": "muscles:FMA37706",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_anconeus_FMA37706",
+   "label": "Left anconeus",
+   "conceptId": "FMA37706",
+   "elementFileIds": [
+    "FJ1485M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37668",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_brachialis_FMA37668",
+   "label": "Right brachialis",
+   "conceptId": "FMA37668",
+   "elementFileIds": [
+    "FJ1486"
+   ]
+  },
+  {
+   "id": "muscles:FMA37669",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_brachialis_FMA37669",
+   "label": "Left brachialis",
+   "conceptId": "FMA37669",
+   "elementFileIds": [
+    "FJ1486M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38486",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_brachioradialis_FMA38486",
+   "label": "Right brachioradialis",
+   "conceptId": "FMA38486",
+   "elementFileIds": [
+    "FJ1487"
+   ]
+  },
+  {
+   "id": "muscles:FMA38487",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_brachioradialis_FMA38487",
+   "label": "Left brachioradialis",
+   "conceptId": "FMA38487",
+   "elementFileIds": [
+    "FJ1487M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37665",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_coracobrachialis_FMA37665",
+   "label": "Right coracobrachialis",
+   "conceptId": "FMA37665",
+   "elementFileIds": [
+    "FJ1488"
+   ]
+  },
+  {
+   "id": "muscles:FMA37666",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_coracobrachialis_FMA37666",
+   "label": "Left coracobrachialis",
+   "conceptId": "FMA37666",
+   "elementFileIds": [
+    "FJ1488M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38498",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_extensor_carpi_radialis_brevis_FMA38498",
+   "label": "Right extensor carpi radialis brevis",
+   "conceptId": "FMA38498",
+   "elementFileIds": [
+    "FJ1489"
+   ]
+  },
+  {
+   "id": "muscles:FMA38499",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_extensor_carpi_radialis_brevis_FMA38499",
+   "label": "Left extensor carpi radialis brevis",
+   "conceptId": "FMA38499",
+   "elementFileIds": [
+    "FJ1489M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38495",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_extensor_carpi_radialis_longus_FMA38495",
+   "label": "Right extensor carpi radialis longus",
+   "conceptId": "FMA38495",
+   "elementFileIds": [
+    "FJ1490"
+   ]
+  },
+  {
+   "id": "muscles:FMA38496",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_extensor_carpi_radialis_longus_FMA38496",
+   "label": "Left extensor carpi radialis longus",
+   "conceptId": "FMA38496",
+   "elementFileIds": [
+    "FJ1490M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38504",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_extensor_digiti_minimi_FMA38504",
+   "label": "Right extensor digiti minimi",
+   "conceptId": "FMA38504",
+   "elementFileIds": [
+    "FJ1491"
+   ]
+  },
+  {
+   "id": "muscles:FMA38505",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_extensor_digiti_minimi_FMA38505",
+   "label": "Left extensor digiti minimi",
+   "conceptId": "FMA38505",
+   "elementFileIds": [
+    "FJ1491M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38501",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_extensor_digitorum_FMA38501",
+   "label": "Right extensor digitorum",
+   "conceptId": "FMA38501",
+   "elementFileIds": [
+    "FJ1492"
+   ]
+  },
+  {
+   "id": "muscles:FMA38502",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_extensor_digitorum_FMA38502",
+   "label": "Left extensor digitorum",
+   "conceptId": "FMA38502",
+   "elementFileIds": [
+    "FJ1492M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38525",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_extensor_indicis_FMA38525",
+   "label": "Right extensor indicis",
+   "conceptId": "FMA38525",
+   "elementFileIds": [
+    "FJ1493"
+   ]
+  },
+  {
+   "id": "muscles:FMA38526",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_extensor_indicis_FMA38526",
+   "label": "Left extensor indicis",
+   "conceptId": "FMA38526",
+   "elementFileIds": [
+    "FJ1493M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38519",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_extensor_pollicis_brevis_FMA38519",
+   "label": "Right extensor pollicis brevis",
+   "conceptId": "FMA38519",
+   "elementFileIds": [
+    "FJ1494"
+   ]
+  },
+  {
+   "id": "muscles:FMA38520",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_extensor_pollicis_brevis_FMA38520",
+   "label": "Left extensor pollicis brevis",
+   "conceptId": "FMA38520",
+   "elementFileIds": [
+    "FJ1494M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38522",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_extensor_pollicis_longus_FMA38522",
+   "label": "Right extensor pollicis longus",
+   "conceptId": "FMA38522",
+   "elementFileIds": [
+    "FJ1495"
+   ]
+  },
+  {
+   "id": "muscles:FMA38523",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_extensor_pollicis_longus_FMA38523",
+   "label": "Left extensor pollicis longus",
+   "conceptId": "FMA38523",
+   "elementFileIds": [
+    "FJ1495M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38460",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_flexor_carpi_radialis_FMA38460",
+   "label": "Right flexor carpi radialis",
+   "conceptId": "FMA38460",
+   "elementFileIds": [
+    "FJ1496"
+   ]
+  },
+  {
+   "id": "muscles:FMA38461",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_flexor_carpi_radialis_FMA38461",
+   "label": "Left flexor carpi radialis",
+   "conceptId": "FMA38461",
+   "elementFileIds": [
+    "FJ1496M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38479",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_flexor_digitorum_profundus_FMA38479",
+   "label": "Right flexor digitorum profundus",
+   "conceptId": "FMA38479",
+   "elementFileIds": [
+    "FJ1497"
+   ]
+  },
+  {
+   "id": "muscles:FMA38480",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_flexor_digitorum_profundus_FMA38480",
+   "label": "Left flexor digitorum profundus",
+   "conceptId": "FMA38480",
+   "elementFileIds": [
+    "FJ1497M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38482",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_flexor_pollicis_longus_FMA38482",
+   "label": "Right flexor pollicis longus",
+   "conceptId": "FMA38482",
+   "elementFileIds": [
+    "FJ1498"
+   ]
+  },
+  {
+   "id": "muscles:FMA38484",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_flexor_pollicis_longus_FMA38484",
+   "label": "Left flexor pollicis longus",
+   "conceptId": "FMA38484",
+   "elementFileIds": [
+    "FJ1498M"
+   ]
+  },
+  {
+   "id": "muscles:FMA32547",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_infraspinatus_muscle_FMA32547",
+   "label": "Right infraspinatus muscle",
+   "conceptId": "FMA32547",
+   "elementFileIds": [
+    "FJ1500"
+   ]
+  },
+  {
+   "id": "muscles:FMA32548",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_infraspinatus_muscle_FMA32548",
+   "label": "Left infraspinatus muscle",
+   "conceptId": "FMA32548",
+   "elementFileIds": [
+    "FJ1500M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37390",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_opponens_pollicis_FMA37390",
+   "label": "Right opponens pollicis",
+   "conceptId": "FMA37390",
+   "elementFileIds": [
+    "FJ1501"
+   ]
+  },
+  {
+   "id": "muscles:FMA37391",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_opponens_pollicis_FMA37391",
+   "label": "Left opponens pollicis",
+   "conceptId": "FMA37391",
+   "elementFileIds": [
+    "FJ1501M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38463",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_palmaris_longus_FMA38463",
+   "label": "Right palmaris longus",
+   "conceptId": "FMA38463",
+   "elementFileIds": [
+    "FJ1502"
+   ]
+  },
+  {
+   "id": "muscles:FMA38464",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_palmaris_longus_FMA38464",
+   "label": "Left palmaris longus",
+   "conceptId": "FMA38464",
+   "elementFileIds": [
+    "FJ1502M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38454",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_pronator_quadratus_FMA38454",
+   "label": "Right pronator quadratus",
+   "conceptId": "FMA38454",
+   "elementFileIds": [
+    "FJ1503"
+   ]
+  },
+  {
+   "id": "muscles:FMA38455",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_pronator_quadratus_FMA38455",
+   "label": "Left pronator quadratus",
+   "conceptId": "FMA38455",
+   "elementFileIds": [
+    "FJ1503M"
+   ]
+  },
+  {
+   "id": "muscles:FMA13414",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_subscapularis_FMA13414",
+   "label": "Right subscapularis",
+   "conceptId": "FMA13414",
+   "elementFileIds": [
+    "FJ1504"
+   ]
+  },
+  {
+   "id": "muscles:FMA13415",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_subscapularis_FMA13415",
+   "label": "Left subscapularis",
+   "conceptId": "FMA13415",
+   "elementFileIds": [
+    "FJ1504M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38513",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_supinator_FMA38513",
+   "label": "Right supinator",
+   "conceptId": "FMA38513",
+   "elementFileIds": [
+    "FJ1505"
+   ]
+  },
+  {
+   "id": "muscles:FMA38514",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_supinator_FMA38514",
+   "label": "Left supinator",
+   "conceptId": "FMA38514",
+   "elementFileIds": [
+    "FJ1505M"
+   ]
+  },
+  {
+   "id": "muscles:FMA32544",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_supraspinatus_FMA32544",
+   "label": "Right supraspinatus",
+   "conceptId": "FMA32544",
+   "elementFileIds": [
+    "FJ1506"
+   ]
+  },
+  {
+   "id": "muscles:FMA32545",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_supraspinatus_FMA32545",
+   "label": "Left supraspinatus",
+   "conceptId": "FMA32545",
+   "elementFileIds": [
+    "FJ1506M"
+   ]
+  },
+  {
+   "id": "muscles:FMA32551",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_teres_major_FMA32551",
+   "label": "Right teres major",
+   "conceptId": "FMA32551",
+   "elementFileIds": [
+    "FJ1507"
+   ]
+  },
+  {
+   "id": "muscles:FMA32552",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_teres_major_FMA32552",
+   "label": "Left teres major",
+   "conceptId": "FMA32552",
+   "elementFileIds": [
+    "FJ1507M"
+   ]
+  },
+  {
+   "id": "muscles:FMA32553",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_teres_minor_FMA32553",
+   "label": "Right teres minor",
+   "conceptId": "FMA32553",
+   "elementFileIds": [
+    "FJ1508"
+   ]
+  },
+  {
+   "id": "muscles:FMA32554",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_teres_minor_FMA32554",
+   "label": "Left teres minor",
+   "conceptId": "FMA32554",
+   "elementFileIds": [
+    "FJ1508M"
+   ]
+  },
+  {
+   "id": "muscles:FMA23089",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_lumbar_rotator_FMA23089",
+   "label": "Right lumbar rotator",
+   "conceptId": "FMA23089",
+   "elementFileIds": [
+    "FJ1522"
+   ]
+  },
+  {
+   "id": "muscles:FMA23090",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_lumbar_rotator_FMA23090",
+   "label": "Left lumbar rotator",
+   "conceptId": "FMA23090",
+   "elementFileIds": [
+    "FJ1522M"
+   ]
+  },
+  {
+   "id": "muscles:FMA81752",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_cervical_rotator_FMA81752",
+   "label": "Right cervical rotator",
+   "conceptId": "FMA81752",
+   "elementFileIds": [
+    "FJ1524"
+   ]
+  },
+  {
+   "id": "muscles:FMA81753",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_cervical_rotator_FMA81753",
+   "label": "Left cervical rotator",
+   "conceptId": "FMA81753",
+   "elementFileIds": [
+    "FJ1524M"
+   ]
+  },
+  {
+   "id": "muscles:FMA23083",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Thoracic_rotator_FMA23083",
+   "label": "Thoracic rotator",
+   "conceptId": "FMA23083",
+   "elementFileIds": [
+    "FJ1525",
+    "FJ1525M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22744",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_iliocostalis_cervicis_FMA22744",
+   "label": "Right iliocostalis cervicis",
+   "conceptId": "FMA22744",
+   "elementFileIds": [
+    "FJ1526"
+   ]
+  },
+  {
+   "id": "muscles:FMA22745",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_iliocostalis_cervicis_FMA22745",
+   "label": "Left iliocostalis cervicis",
+   "conceptId": "FMA22745",
+   "elementFileIds": [
+    "FJ1526M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22740",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_iliocostalis_lumborum_FMA22740",
+   "label": "Right iliocostalis lumborum",
+   "conceptId": "FMA22740",
+   "elementFileIds": [
+    "FJ1527"
+   ]
+  },
+  {
+   "id": "muscles:FMA22741",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_iliocostalis_lumborum_FMA22741",
+   "label": "Left iliocostalis lumborum",
+   "conceptId": "FMA22741",
+   "elementFileIds": [
+    "FJ1527M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22742",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_iliocostalis_thoracis_FMA22742",
+   "label": "Right iliocostalis thoracis",
+   "conceptId": "FMA22742",
+   "elementFileIds": [
+    "FJ1528"
+   ]
+  },
+  {
+   "id": "muscles:FMA22743",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_iliocostalis_thoracis_FMA22743",
+   "label": "Left iliocostalis thoracis",
+   "conceptId": "FMA22743",
+   "elementFileIds": [
+    "FJ1528M"
+   ]
+  },
+  {
+   "id": "muscles:FMA32540",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_levator_scapulae_FMA32540",
+   "label": "Right levator scapulae",
+   "conceptId": "FMA32540",
+   "elementFileIds": [
+    "FJ1532"
+   ]
+  },
+  {
+   "id": "muscles:FMA32541",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_levator_scapulae_FMA32541",
+   "label": "Left levator scapulae",
+   "conceptId": "FMA32541",
+   "elementFileIds": [
+    "FJ1532M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22754",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_longissimus_capitis_FMA22754",
+   "label": "Right longissimus capitis",
+   "conceptId": "FMA22754",
+   "elementFileIds": [
+    "FJ1533"
+   ]
+  },
+  {
+   "id": "muscles:FMA22756",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_longissimus_capitis_FMA22756",
+   "label": "Left longissimus capitis",
+   "conceptId": "FMA22756",
+   "elementFileIds": [
+    "FJ1533M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22757",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_longissimus_cervicis_FMA22757",
+   "label": "Right longissimus cervicis",
+   "conceptId": "FMA22757",
+   "elementFileIds": [
+    "FJ1534"
+   ]
+  },
+  {
+   "id": "muscles:FMA22758",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_longissimus_cervicis_FMA22758",
+   "label": "Left longissimus cervicis",
+   "conceptId": "FMA22758",
+   "elementFileIds": [
+    "FJ1534M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22751",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_longissimus_thoracis_FMA22751",
+   "label": "Right longissimus thoracis",
+   "conceptId": "FMA22751",
+   "elementFileIds": [
+    "FJ1535"
+   ]
+  },
+  {
+   "id": "muscles:FMA22753",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_longissimus_thoracis_FMA22753",
+   "label": "Left longissimus thoracis",
+   "conceptId": "FMA22753",
+   "elementFileIds": [
+    "FJ1535M"
+   ]
+  },
+  {
+   "id": "muscles:FMA13381",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_rhomboid_major_FMA13381",
+   "label": "Right rhomboid major",
+   "conceptId": "FMA13381",
+   "elementFileIds": [
+    "FJ1536"
+   ]
+  },
+  {
+   "id": "muscles:FMA13382",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_rhomboid_major_FMA13382",
+   "label": "Left rhomboid major",
+   "conceptId": "FMA13382",
+   "elementFileIds": [
+    "FJ1536M"
+   ]
+  },
+  {
+   "id": "muscles:FMA13383",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_rhomboid_minor_FMA13383",
+   "label": "Right rhomboid minor",
+   "conceptId": "FMA13383",
+   "elementFileIds": [
+    "FJ1537"
+   ]
+  },
+  {
+   "id": "muscles:FMA13384",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_rhomboid_minor_FMA13384",
+   "label": "Left rhomboid minor",
+   "conceptId": "FMA13384",
+   "elementFileIds": [
+    "FJ1537M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22876",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_semispinalis_capitis_FMA22876",
+   "label": "Right semispinalis capitis",
+   "conceptId": "FMA22876",
+   "elementFileIds": [
+    "FJ1538"
+   ]
+  },
+  {
+   "id": "muscles:FMA22877",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_semispinalis_capitis_FMA22877",
+   "label": "Left semispinalis capitis",
+   "conceptId": "FMA22877",
+   "elementFileIds": [
+    "FJ1538M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22874",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_semispinalis_cervicis_FMA22874",
+   "label": "Right semispinalis cervicis",
+   "conceptId": "FMA22874",
+   "elementFileIds": [
+    "FJ1539"
+   ]
+  },
+  {
+   "id": "muscles:FMA22875",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_semispinalis_cervicis_FMA22875",
+   "label": "Left semispinalis cervicis",
+   "conceptId": "FMA22875",
+   "elementFileIds": [
+    "FJ1539M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22872",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_semispinalis_thoracis_FMA22872",
+   "label": "Right semispinalis thoracis",
+   "conceptId": "FMA22872",
+   "elementFileIds": [
+    "FJ1540"
+   ]
+  },
+  {
+   "id": "muscles:FMA22873",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_semispinalis_thoracis_FMA22873",
+   "label": "Left semispinalis thoracis",
+   "conceptId": "FMA22873",
+   "elementFileIds": [
+    "FJ1540M"
+   ]
+  },
+  {
+   "id": "muscles:FMA13405",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_serratus_posterior_inferior_FMA13405",
+   "label": "Right serratus posterior inferior",
+   "conceptId": "FMA13405",
+   "elementFileIds": [
+    "FJ1541"
+   ]
+  },
+  {
+   "id": "muscles:FMA13406",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_serratus_posterior_inferior_FMA13406",
+   "label": "Left serratus posterior inferior",
+   "conceptId": "FMA13406",
+   "elementFileIds": [
+    "FJ1541M"
+   ]
+  },
+  {
+   "id": "muscles:FMA13403",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_serratus_posterior_superior_FMA13403",
+   "label": "Right serratus posterior superior",
+   "conceptId": "FMA13403",
+   "elementFileIds": [
+    "FJ1542"
+   ]
+  },
+  {
+   "id": "muscles:FMA13404",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_serratus_posterior_superior_FMA13404",
+   "label": "Left serratus posterior superior",
+   "conceptId": "FMA13404",
+   "elementFileIds": [
+    "FJ1542M"
+   ]
+  },
+  {
+   "id": "muscles:FMA77179",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Spinalis_FMA77179",
+   "label": "Spinalis",
+   "conceptId": "FMA77179",
+   "elementFileIds": [
+    "FJ1543",
+    "FJ1543M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22779",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_spinalis_thoracis_FMA22779",
+   "label": "Right spinalis thoracis",
+   "conceptId": "FMA22779",
+   "elementFileIds": [
+    "FJ1544"
+   ]
+  },
+  {
+   "id": "muscles:FMA22780",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_spinalis_thoracis_FMA22780",
+   "label": "Left spinalis thoracis",
+   "conceptId": "FMA22780",
+   "elementFileIds": [
+    "FJ1544M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22728",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_splenius_capitis_FMA22728",
+   "label": "Right splenius capitis",
+   "conceptId": "FMA22728",
+   "elementFileIds": [
+    "FJ1545"
+   ]
+  },
+  {
+   "id": "muscles:FMA22729",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_splenius_capitis_FMA22729",
+   "label": "Left splenius capitis",
+   "conceptId": "FMA22729",
+   "elementFileIds": [
+    "FJ1545M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22726",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_splenius_cervicis_FMA22726",
+   "label": "Right splenius cervicis",
+   "conceptId": "FMA22726",
+   "elementFileIds": [
+    "FJ1546"
+   ]
+  },
+  {
+   "id": "muscles:FMA22727",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_splenius_cervicis_FMA22727",
+   "label": "Left splenius cervicis",
+   "conceptId": "FMA22727",
+   "elementFileIds": [
+    "FJ1546M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22850",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Lateral_lumbar_intertransversarius_FMA22850",
+   "label": "Lateral lumbar intertransversarius",
+   "conceptId": "FMA22850",
+   "elementFileIds": [
+    "FJ1547",
+    "FJ1547M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22851",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Medial_lumbar_intertransversarius_FMA22851",
+   "label": "Medial lumbar intertransversarius",
+   "conceptId": "FMA22851",
+   "elementFileIds": [
+    "FJ1548",
+    "FJ1548M"
+   ]
+  },
+  {
+   "id": "muscles:FMA22890",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_interspinalis_thoracis_FMA22890",
+   "label": "Right interspinalis thoracis",
+   "conceptId": "FMA22890",
+   "elementFileIds": [
+    "FJ1551"
+   ]
+  },
+  {
+   "id": "muscles:FMA22891",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_interspinalis_thoracis_FMA22891",
+   "label": "Left interspinalis thoracis",
+   "conceptId": "FMA22891",
+   "elementFileIds": [
+    "FJ1551M"
+   ]
+  },
+  {
+   "id": "muscles:FMA46293",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_digastric_FMA46293",
+   "label": "Left digastric",
+   "conceptId": "FMA46293",
+   "elementFileIds": [
+    "FJ1555",
+    "FJ1560",
+    "FJ1578"
+   ]
+  },
+  {
+   "id": "muscles:FMA46292",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_digastric_FMA46292",
+   "label": "Right digastric",
+   "conceptId": "FMA46292",
+   "elementFileIds": [
+    "FJ1556",
+    "FJ1579"
+   ]
+  },
+  {
+   "id": "muscles:FMA45740",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_platysma_FMA45740",
+   "label": "Left platysma",
+   "conceptId": "FMA45740",
+   "elementFileIds": [
+    "FJ1558"
+   ]
+  },
+  {
+   "id": "muscles:FMA46327",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_geniohyoid_FMA46327",
+   "label": "Left geniohyoid",
+   "conceptId": "FMA46327",
+   "elementFileIds": [
+    "FJ1559"
+   ]
+  },
+  {
+   "id": "muscles:FMA46310",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_longus_capitis_FMA46310",
+   "label": "Left longus capitis",
+   "conceptId": "FMA46310",
+   "elementFileIds": [
+    "FJ1561"
+   ]
+  },
+  {
+   "id": "muscles:FMA46322",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_mylohyoid_FMA46322",
+   "label": "Left mylohyoid",
+   "conceptId": "FMA46322",
+   "elementFileIds": [
+    "FJ1562"
+   ]
+  },
+  {
+   "id": "muscles:FMA32537",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_obliquus_capitis_inferior_FMA32537",
+   "label": "Left obliquus capitis inferior",
+   "conceptId": "FMA32537",
+   "elementFileIds": [
+    "FJ1563"
+   ]
+  },
+  {
+   "id": "muscles:FMA32535",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_obliquus_capitis_superior_FMA32535",
+   "label": "Left obliquus capitis superior",
+   "conceptId": "FMA32535",
+   "elementFileIds": [
+    "FJ1564"
+   ]
+  },
+  {
+   "id": "muscles:FMA13349",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_omohyoid_FMA13349",
+   "label": "Left omohyoid",
+   "conceptId": "FMA13349",
+   "elementFileIds": [
+    "FJ1565"
+   ]
+  },
+  {
+   "id": "muscles:FMA46314",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_rectus_capitis_anterior_FMA46314",
+   "label": "Left rectus capitis anterior",
+   "conceptId": "FMA46314",
+   "elementFileIds": [
+    "FJ1566"
+   ]
+  },
+  {
+   "id": "muscles:FMA32531",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_rectus_capitis_posterior_major_FMA32531",
+   "label": "Left rectus capitis posterior major",
+   "conceptId": "FMA32531",
+   "elementFileIds": [
+    "FJ1567"
+   ]
+  },
+  {
+   "id": "muscles:FMA32533",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_rectus_capitis_posterior_minor_FMA32533",
+   "label": "Left rectus capitis posterior minor",
+   "conceptId": "FMA32533",
+   "elementFileIds": [
+    "FJ1568"
+   ]
+  },
+  {
+   "id": "muscles:FMA46318",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_rectus_capitis_lateralis_FMA46318",
+   "label": "Left rectus capitis lateralis",
+   "conceptId": "FMA46318",
+   "elementFileIds": [
+    "FJ1569"
+   ]
+  },
+  {
+   "id": "muscles:FMA13393",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_scalenus_anterior_FMA13393",
+   "label": "Left scalenus anterior",
+   "conceptId": "FMA13393",
+   "elementFileIds": [
+    "FJ1570"
+   ]
+  },
+  {
+   "id": "muscles:FMA13391",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_scalenus_medius_FMA13391",
+   "label": "Left scalenus medius",
+   "conceptId": "FMA13391",
+   "elementFileIds": [
+    "FJ1571"
+   ]
+  },
+  {
+   "id": "muscles:FMA13389",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_scalenus_posterior_FMA13389",
+   "label": "Left scalenus posterior",
+   "conceptId": "FMA13389",
+   "elementFileIds": [
+    "FJ1572"
+   ]
+  },
+  {
+   "id": "muscles:FMA13409",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_sternocleidomastoid_FMA13409",
+   "label": "Left sternocleidomastoid",
+   "conceptId": "FMA13409",
+   "elementFileIds": [
+    "FJ1573"
+   ]
+  },
+  {
+   "id": "muscles:FMA13347",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_sternohyoid_FMA13347",
+   "label": "Left sternohyoid",
+   "conceptId": "FMA13347",
+   "elementFileIds": [
+    "FJ1574"
+   ]
+  },
+  {
+   "id": "muscles:FMA13351",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_sternothyroid_FMA13351",
+   "label": "Left sternothyroid",
+   "conceptId": "FMA13351",
+   "elementFileIds": [
+    "FJ1575"
+   ]
+  },
+  {
+   "id": "muscles:FMA45827",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_stylohyoid_FMA45827",
+   "label": "Left stylohyoid",
+   "conceptId": "FMA45827",
+   "elementFileIds": [
+    "FJ1576"
+   ]
+  },
+  {
+   "id": "muscles:FMA13353",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_thyrohyoid_FMA13353",
+   "label": "Left thyrohyoid",
+   "conceptId": "FMA13353",
+   "elementFileIds": [
+    "FJ1577"
+   ]
+  },
+  {
+   "id": "muscles:FMA46326",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_geniohyoid_FMA46326",
+   "label": "Right geniohyoid",
+   "conceptId": "FMA46326",
+   "elementFileIds": [
+    "FJ1580"
+   ]
+  },
+  {
+   "id": "muscles:FMA46309",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_longus_capitis_FMA46309",
+   "label": "Right longus capitis",
+   "conceptId": "FMA46309",
+   "elementFileIds": [
+    "FJ1582"
+   ]
+  },
+  {
+   "id": "muscles:FMA46321",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_mylohyoid_FMA46321",
+   "label": "Right mylohyoid",
+   "conceptId": "FMA46321",
+   "elementFileIds": [
+    "FJ1583"
+   ]
+  },
+  {
+   "id": "muscles:FMA32536",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_obliquus_capitis_inferior_FMA32536",
+   "label": "Right obliquus capitis inferior",
+   "conceptId": "FMA32536",
+   "elementFileIds": [
+    "FJ1584"
+   ]
+  },
+  {
+   "id": "muscles:FMA32534",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_obliquus_capitis_superior_FMA32534",
+   "label": "Right obliquus capitis superior",
+   "conceptId": "FMA32534",
+   "elementFileIds": [
+    "FJ1585"
+   ]
+  },
+  {
+   "id": "muscles:FMA13348",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_omohyoid_FMA13348",
+   "label": "Right omohyoid",
+   "conceptId": "FMA13348",
+   "elementFileIds": [
+    "FJ1586"
+   ]
+  },
+  {
+   "id": "muscles:FMA45739",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_platysma_FMA45739",
+   "label": "Right platysma",
+   "conceptId": "FMA45739",
+   "elementFileIds": [
+    "FJ1587"
+   ]
+  },
+  {
+   "id": "muscles:FMA46313",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_rectus_capitis_anterior_FMA46313",
+   "label": "Right rectus capitis anterior",
+   "conceptId": "FMA46313",
+   "elementFileIds": [
+    "FJ1588"
+   ]
+  },
+  {
+   "id": "muscles:FMA32530",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_rectus_capitis_posterior_major_FMA32530",
+   "label": "Right rectus capitis posterior major",
+   "conceptId": "FMA32530",
+   "elementFileIds": [
+    "FJ1589"
+   ]
+  },
+  {
+   "id": "muscles:FMA32532",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_rectus_capitis_posterior_minor_FMA32532",
+   "label": "Right rectus capitis posterior minor",
+   "conceptId": "FMA32532",
+   "elementFileIds": [
+    "FJ1590"
+   ]
+  },
+  {
+   "id": "muscles:FMA46317",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_rectus_capitis_lateralis_FMA46317",
+   "label": "Right rectus capitis lateralis",
+   "conceptId": "FMA46317",
+   "elementFileIds": [
+    "FJ1591"
+   ]
+  },
+  {
+   "id": "muscles:FMA13392",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_scalenus_anterior_FMA13392",
+   "label": "Right scalenus anterior",
+   "conceptId": "FMA13392",
+   "elementFileIds": [
+    "FJ1592"
+   ]
+  },
+  {
+   "id": "muscles:FMA13390",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_scalenus_medius_FMA13390",
+   "label": "Right scalenus medius",
+   "conceptId": "FMA13390",
+   "elementFileIds": [
+    "FJ1593"
+   ]
+  },
+  {
+   "id": "muscles:FMA13388",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_scalenus_posterior_FMA13388",
+   "label": "Right scalenus posterior",
+   "conceptId": "FMA13388",
+   "elementFileIds": [
+    "FJ1594"
+   ]
+  },
+  {
+   "id": "muscles:FMA13408",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_sternocleidomastoid_FMA13408",
+   "label": "Right sternocleidomastoid",
+   "conceptId": "FMA13408",
+   "elementFileIds": [
+    "FJ1595"
+   ]
+  },
+  {
+   "id": "muscles:FMA13346",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_sternohyoid_FMA13346",
+   "label": "Right sternohyoid",
+   "conceptId": "FMA13346",
+   "elementFileIds": [
+    "FJ1596"
+   ]
+  },
+  {
+   "id": "muscles:FMA13350",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_sternothyroid_FMA13350",
+   "label": "Right sternothyroid",
+   "conceptId": "FMA13350",
+   "elementFileIds": [
+    "FJ1597"
+   ]
+  },
+  {
+   "id": "muscles:FMA45826",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_stylohyoid_FMA45826",
+   "label": "Right stylohyoid",
+   "conceptId": "FMA45826",
+   "elementFileIds": [
+    "FJ1598"
+   ]
+  },
+  {
+   "id": "muscles:FMA13352",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_thyrohyoid_FMA13352",
+   "label": "Right thyrohyoid",
+   "conceptId": "FMA13352",
+   "elementFileIds": [
+    "FJ1599"
+   ]
+  },
+  {
+   "id": "muscles:FMA46443",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_coccygeus_FMA46443",
+   "label": "Right coccygeus",
+   "conceptId": "FMA46443",
+   "elementFileIds": [
+    "FJ2547"
+   ]
+  },
+  {
+   "id": "muscles:FMA46702",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_genioglossus_FMA46702",
+   "label": "Left genioglossus",
+   "conceptId": "FMA46702",
+   "elementFileIds": [
+    "FJ2738"
+   ]
+  },
+  {
+   "id": "muscles:FMA46704",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_hyoglossus_FMA46704",
+   "label": "Left hyoglossus",
+   "conceptId": "FMA46704",
+   "elementFileIds": [
+    "FJ2739"
+   ]
+  },
+  {
+   "id": "muscles:FMA46636",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_inferior_pharyngeal_constrictor_FMA46636",
+   "label": "Left inferior pharyngeal constrictor",
+   "conceptId": "FMA46636",
+   "elementFileIds": [
+    "FJ2740"
+   ]
+  },
+  {
+   "id": "muscles:FMA46729",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_levator_veli_palatini_FMA46729",
+   "label": "Left levator veli palatini",
+   "conceptId": "FMA46729",
+   "elementFileIds": [
+    "FJ2741"
+   ]
+  },
+  {
+   "id": "muscles:FMA46633",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_middle_pharyngeal_constrictor_FMA46633",
+   "label": "Right middle pharyngeal constrictor",
+   "conceptId": "FMA46633",
+   "elementFileIds": [
+    "FJ2742"
+   ]
+  },
+  {
+   "id": "muscles:FMA46672",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_palatopharyngeus_FMA46672",
+   "label": "Left palatopharyngeus",
+   "conceptId": "FMA46672",
+   "elementFileIds": [
+    "FJ2743"
+   ]
+  },
+  {
+   "id": "muscles:FMA46670",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_salpingopharyngeus_FMA46670",
+   "label": "Left salpingopharyngeus",
+   "conceptId": "FMA46670",
+   "elementFileIds": [
+    "FJ2745"
+   ]
+  },
+  {
+   "id": "muscles:FMA46668",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_stylopharyngeus_FMA46668",
+   "label": "Left stylopharyngeus",
+   "conceptId": "FMA46668",
+   "elementFileIds": [
+    "FJ2746"
+   ]
+  },
+  {
+   "id": "muscles:FMA46632",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_superior_pharyngeal_constrictor_FMA46632",
+   "label": "Left superior pharyngeal constrictor",
+   "conceptId": "FMA46632",
+   "elementFileIds": [
+    "FJ2747"
+   ]
+  },
+  {
+   "id": "muscles:FMA46732",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_tensor_veli_palatini_FMA46732",
+   "label": "Left tensor veli palatini",
+   "conceptId": "FMA46732",
+   "elementFileIds": [
+    "FJ2748"
+   ]
+  },
+  {
+   "id": "muscles:FMA46698",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_genioglossus_FMA46698",
+   "label": "Right genioglossus",
+   "conceptId": "FMA46698",
+   "elementFileIds": [
+    "FJ2750"
+   ]
+  },
+  {
+   "id": "muscles:FMA46703",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_hyoglossus_FMA46703",
+   "label": "Right hyoglossus",
+   "conceptId": "FMA46703",
+   "elementFileIds": [
+    "FJ2751"
+   ]
+  },
+  {
+   "id": "muscles:FMA46635",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_inferior_pharyngeal_constrictor_FMA46635",
+   "label": "Right inferior pharyngeal constrictor",
+   "conceptId": "FMA46635",
+   "elementFileIds": [
+    "FJ2752"
+   ]
+  },
+  {
+   "id": "muscles:FMA46728",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_levator_veli_palatini_FMA46728",
+   "label": "Right levator veli palatini",
+   "conceptId": "FMA46728",
+   "elementFileIds": [
+    "FJ2753"
+   ]
+  },
+  {
+   "id": "muscles:FMA46634",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_middle_pharyngeal_constrictor_FMA46634",
+   "label": "Left middle pharyngeal constrictor",
+   "conceptId": "FMA46634",
+   "elementFileIds": [
+    "FJ2754"
+   ]
+  },
+  {
+   "id": "muscles:FMA46671",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_palatopharyngeus_FMA46671",
+   "label": "Right palatopharyngeus",
+   "conceptId": "FMA46671",
+   "elementFileIds": [
+    "FJ2755"
+   ]
+  },
+  {
+   "id": "muscles:FMA46669",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_salpingopharyngeus_FMA46669",
+   "label": "Right salpingopharyngeus",
+   "conceptId": "FMA46669",
+   "elementFileIds": [
+    "FJ2757"
+   ]
+  },
+  {
+   "id": "muscles:FMA46667",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_stylopharyngeus_FMA46667",
+   "label": "Right stylopharyngeus",
+   "conceptId": "FMA46667",
+   "elementFileIds": [
+    "FJ2758"
+   ]
+  },
+  {
+   "id": "muscles:FMA46631",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_superior_pharyngeal_constrictor_FMA46631",
+   "label": "Right superior pharyngeal constrictor",
+   "conceptId": "FMA46631",
+   "elementFileIds": [
+    "FJ2759"
+   ]
+  },
+  {
+   "id": "muscles:FMA46731",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_tensor_veli_palatini_FMA46731",
+   "label": "Right tensor veli palatini",
+   "conceptId": "FMA46731",
+   "elementFileIds": [
+    "FJ2760"
+   ]
+  },
+  {
+   "id": "muscles:FMA46733",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Uvular_muscle_FMA46733",
+   "label": "Uvular muscle",
+   "conceptId": "FMA46733",
+   "elementFileIds": [
+    "FJ2762"
+   ]
+  },
+  {
+   "id": "muscles:FMA46581",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_lateral_crico_arytenoid_FMA46581",
+   "label": "Left lateral crico-arytenoid",
+   "conceptId": "FMA46581",
+   "elementFileIds": [
+    "FJ2778"
+   ]
+  },
+  {
+   "id": "muscles:FMA46585",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_oblique_arytenoid_FMA46585",
+   "label": "Left oblique arytenoid",
+   "conceptId": "FMA46585",
+   "elementFileIds": [
+    "FJ2780"
+   ]
+  },
+  {
+   "id": "muscles:FMA46578",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_posterior_crico_arytenoid_FMA46578",
+   "label": "Left posterior crico-arytenoid",
+   "conceptId": "FMA46578",
+   "elementFileIds": [
+    "FJ2782"
+   ]
+  },
+  {
+   "id": "muscles:FMA46590",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_thyro_arytenoid_FMA46590",
+   "label": "Left thyro-arytenoid",
+   "conceptId": "FMA46590",
+   "elementFileIds": [
+    "FJ2784",
+    "FJ2785"
+   ]
+  },
+  {
+   "id": "muscles:FMA46593",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_vocalis_FMA46593",
+   "label": "Left vocalis",
+   "conceptId": "FMA46593",
+   "elementFileIds": [
+    "FJ2788"
+   ]
+  },
+  {
+   "id": "muscles:FMA46580",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_lateral_crico_arytenoid_FMA46580",
+   "label": "Right lateral crico-arytenoid",
+   "conceptId": "FMA46580",
+   "elementFileIds": [
+    "FJ2796"
+   ]
+  },
+  {
+   "id": "muscles:FMA46584",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_oblique_arytenoid_FMA46584",
+   "label": "Right oblique arytenoid",
+   "conceptId": "FMA46584",
+   "elementFileIds": [
+    "FJ2798"
+   ]
+  },
+  {
+   "id": "muscles:FMA46577",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_posterior_crico_arytenoid_FMA46577",
+   "label": "Right posterior crico-arytenoid",
+   "conceptId": "FMA46577",
+   "elementFileIds": [
+    "FJ2800"
+   ]
+  },
+  {
+   "id": "muscles:FMA46589",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_thyro_arytenoid_FMA46589",
+   "label": "Right thyro-arytenoid",
+   "conceptId": "FMA46589",
+   "elementFileIds": [
+    "FJ2802",
+    "FJ2803"
+   ]
+  },
+  {
+   "id": "muscles:FMA46592",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_vocalis_FMA46592",
+   "label": "Right vocalis",
+   "conceptId": "FMA46592",
+   "elementFileIds": [
+    "FJ2806"
+   ]
+  },
+  {
+   "id": "muscles:FMA46582",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Transverse_arytenoid_FMA46582",
+   "label": "Transverse arytenoid",
+   "conceptId": "FMA46582",
+   "elementFileIds": [
+    "FJ2809"
+   ]
+  },
+  {
+   "id": "muscles:FMA13295",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Diaphragm_FMA13295",
+   "label": "Diaphragm",
+   "conceptId": "FMA13295",
+   "elementFileIds": [
+    "FJ3131"
+   ]
+  },
+  {
+   "id": "muscles:FMA45973",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Lateral_head_of_right_flexor_hallucis_brevis_FMA45973",
+   "label": "Lateral head of right flexor hallucis brevis",
+   "conceptId": "FMA45973",
+   "elementFileIds": [
+    "FJ1393"
+   ]
+  },
+  {
+   "id": "muscles:FMA45974",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Lateral_head_of_left_flexor_hallucis_brevis_FMA45974",
+   "label": "Lateral head of left flexor hallucis brevis",
+   "conceptId": "FMA45974",
+   "elementFileIds": [
+    "FJ1393M"
+   ]
+  },
+  {
+   "id": "muscles:FMA45960",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Lateral_head_of_right_gastrocnemius_FMA45960",
+   "label": "Lateral head of right gastrocnemius",
+   "conceptId": "FMA45960",
+   "elementFileIds": [
+    "FJ1394"
+   ]
+  },
+  {
+   "id": "muscles:FMA45961",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Lateral_head_of_left_gastrocnemius_FMA45961",
+   "label": "Lateral head of left gastrocnemius",
+   "conceptId": "FMA45961",
+   "elementFileIds": [
+    "FJ1394M"
+   ]
+  },
+  {
+   "id": "muscles:FMA45888",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Long_head_of_right_biceps_femoris_FMA45888",
+   "label": "Long head of right biceps femoris",
+   "conceptId": "FMA45888",
+   "elementFileIds": [
+    "FJ1395"
+   ]
+  },
+  {
+   "id": "muscles:FMA45889",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Long_head_of_left_biceps_femoris_FMA45889",
+   "label": "Long head of left biceps femoris",
+   "conceptId": "FMA45889",
+   "elementFileIds": [
+    "FJ1395M"
+   ]
+  },
+  {
+   "id": "muscles:FMA45971",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Medial_head_of_right_flexor_hallucis_brevis_FMA45971",
+   "label": "Medial head of right flexor hallucis brevis",
+   "conceptId": "FMA45971",
+   "elementFileIds": [
+    "FJ1396"
+   ]
+  },
+  {
+   "id": "muscles:FMA45972",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Medial_head_of_left_flexor_hallucis_brevis_FMA45972",
+   "label": "Medial head of left flexor hallucis brevis",
+   "conceptId": "FMA45972",
+   "elementFileIds": [
+    "FJ1396M"
+   ]
+  },
+  {
+   "id": "muscles:FMA45957",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Medial_head_of_right_gastrocnemius_FMA45957",
+   "label": "Medial head of right gastrocnemius",
+   "conceptId": "FMA45957",
+   "elementFileIds": [
+    "FJ1397"
+   ]
+  },
+  {
+   "id": "muscles:FMA45958",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Medial_head_of_left_gastrocnemius_FMA45958",
+   "label": "Medial head of left gastrocnemius",
+   "conceptId": "FMA45958",
+   "elementFileIds": [
+    "FJ1397M"
+   ]
+  },
+  {
+   "id": "muscles:FMA46018",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Oblique_head_of_right_adductor_hallucis_FMA46018",
+   "label": "Oblique head of right adductor hallucis",
+   "conceptId": "FMA46018",
+   "elementFileIds": [
+    "FJ1398"
+   ]
+  },
+  {
+   "id": "muscles:FMA46019",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Oblique_head_of_left_adductor_hallucis_FMA46019",
+   "label": "Oblique head of left adductor hallucis",
+   "conceptId": "FMA46019",
+   "elementFileIds": [
+    "FJ1398M"
+   ]
+  },
+  {
+   "id": "muscles:FMA45891",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Short_head_of_right_biceps_femoris_FMA45891",
+   "label": "Short head of right biceps femoris",
+   "conceptId": "FMA45891",
+   "elementFileIds": [
+    "FJ1444"
+   ]
+  },
+  {
+   "id": "muscles:FMA45892",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Short_head_of_left_biceps_femoris_FMA45892",
+   "label": "Short head of left biceps femoris",
+   "conceptId": "FMA45892",
+   "elementFileIds": [
+    "FJ1444M"
+   ]
+  },
+  {
+   "id": "muscles:FMA46020",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Transverse_head_of_right_adductor_hallucis_FMA46020",
+   "label": "Transverse head of right adductor hallucis",
+   "conceptId": "FMA46020",
+   "elementFileIds": [
+    "FJ1445"
+   ]
+  },
+  {
+   "id": "muscles:FMA46021",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Transverse_head_of_left_adductor_hallucis_FMA46021",
+   "label": "Transverse head of left adductor hallucis",
+   "conceptId": "FMA46021",
+   "elementFileIds": [
+    "FJ1445M"
+   ]
+  },
+  {
+   "id": "muscles:FMA34690",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Clavicular_part_of_right_pectoralis_major_FMA34690",
+   "label": "Clavicular part of right pectoralis major",
+   "conceptId": "FMA34690",
+   "elementFileIds": [
+    "FJ1447"
+   ]
+  },
+  {
+   "id": "muscles:FMA34691",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Clavicular_part_of_left_pectoralis_major_FMA34691",
+   "label": "Clavicular part of left pectoralis major",
+   "conceptId": "FMA34691",
+   "elementFileIds": [
+    "FJ1447M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38617",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Humeral_head_of_right_flexor_carpi_ulnaris_FMA38617",
+   "label": "Humeral head of right flexor carpi ulnaris",
+   "conceptId": "FMA38617",
+   "elementFileIds": [
+    "FJ1473"
+   ]
+  },
+  {
+   "id": "muscles:FMA38618",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Humeral_head_of_left_flexor_carpi_ulnaris_FMA38618",
+   "label": "Humeral head of left flexor carpi ulnaris",
+   "conceptId": "FMA38618",
+   "elementFileIds": [
+    "FJ1473M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38560",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Humeral_head_of_right_pronator_teres_FMA38560",
+   "label": "Humeral head of right pronator teres",
+   "conceptId": "FMA38560",
+   "elementFileIds": [
+    "FJ1474"
+   ]
+  },
+  {
+   "id": "muscles:FMA38561",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Humeral_head_of_left_pronator_teres_FMA38561",
+   "label": "Humeral head of left pronator teres",
+   "conceptId": "FMA38561",
+   "elementFileIds": [
+    "FJ1474M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37697",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Lateral_head_of_right_triceps_brachii_FMA37697",
+   "label": "Lateral head of right triceps brachii",
+   "conceptId": "FMA37697",
+   "elementFileIds": [
+    "FJ1477"
+   ]
+  },
+  {
+   "id": "muscles:FMA37698",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Lateral_head_of_left_triceps_brachii_FMA37698",
+   "label": "Lateral head of left triceps brachii",
+   "conceptId": "FMA37698",
+   "elementFileIds": [
+    "FJ1477M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37686",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Long_head_of_right_biceps_brachii_FMA37686",
+   "label": "Long head of right biceps brachii",
+   "conceptId": "FMA37686",
+   "elementFileIds": [
+    "FJ1478"
+   ]
+  },
+  {
+   "id": "muscles:FMA37687",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Long_head_of_left_biceps_brachii_FMA37687",
+   "label": "Long head of left biceps brachii",
+   "conceptId": "FMA37687",
+   "elementFileIds": [
+    "FJ1478M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37699",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Long_head_of_right_triceps_brachii_FMA37699",
+   "label": "Long head of right triceps brachii",
+   "conceptId": "FMA37699",
+   "elementFileIds": [
+    "FJ1479"
+   ]
+  },
+  {
+   "id": "muscles:FMA37700",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Long_head_of_left_triceps_brachii_FMA37700",
+   "label": "Long head of left triceps brachii",
+   "conceptId": "FMA37700",
+   "elementFileIds": [
+    "FJ1479M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37695",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Medial_head_of_right_triceps_brachii_FMA37695",
+   "label": "Medial head of right triceps brachii",
+   "conceptId": "FMA37695",
+   "elementFileIds": [
+    "FJ1480"
+   ]
+  },
+  {
+   "id": "muscles:FMA37696",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Medial_head_of_left_triceps_brachii_FMA37696",
+   "label": "Medial head of left triceps brachii",
+   "conceptId": "FMA37696",
+   "elementFileIds": [
+    "FJ1480M"
+   ]
+  },
+  {
+   "id": "muscles:FMA46121",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Oblique_head_of_right_adductor_pollicis_FMA46121",
+   "label": "Oblique head of right adductor pollicis",
+   "conceptId": "FMA46121",
+   "elementFileIds": [
+    "FJ1481"
+   ]
+  },
+  {
+   "id": "muscles:FMA46122",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Oblique_head_of_left_adductor_pollicis_FMA46122",
+   "label": "Oblique head of left adductor pollicis",
+   "conceptId": "FMA46122",
+   "elementFileIds": [
+    "FJ1481M"
+   ]
+  },
+  {
+   "id": "muscles:FMA37684",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Short_head_of_right_biceps_brachii_FMA37684",
+   "label": "Short head of right biceps brachii",
+   "conceptId": "FMA37684",
+   "elementFileIds": [
+    "FJ1512"
+   ]
+  },
+  {
+   "id": "muscles:FMA37685",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Short_head_of_left_biceps_brachii_FMA37685",
+   "label": "Short head of left biceps brachii",
+   "conceptId": "FMA37685",
+   "elementFileIds": [
+    "FJ1512M"
+   ]
+  },
+  {
+   "id": "muscles:FMA65198",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Superficial_head_of_right_flexor_pollicis_brevis_FMA65198",
+   "label": "Superficial head of right flexor pollicis brevis",
+   "conceptId": "FMA65198",
+   "elementFileIds": [
+    "FJ1514"
+   ]
+  },
+  {
+   "id": "muscles:FMA65199",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Superficial_head_of_left_flexor_pollicis_brevis_FMA65199",
+   "label": "Superficial head of left flexor pollicis brevis",
+   "conceptId": "FMA65199",
+   "elementFileIds": [
+    "FJ1514M"
+   ]
+  },
+  {
+   "id": "muscles:FMA46123",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Transverse_head_of_right_adductor_pollicis_FMA46123",
+   "label": "Transverse head of right adductor pollicis",
+   "conceptId": "FMA46123",
+   "elementFileIds": [
+    "FJ1515"
+   ]
+  },
+  {
+   "id": "muscles:FMA46124",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Transverse_head_of_left_adductor_pollicis_FMA46124",
+   "label": "Transverse head of left adductor pollicis",
+   "conceptId": "FMA46124",
+   "elementFileIds": [
+    "FJ1515M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38562",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Ulnar_head_of_right_pronator_teres_FMA38562",
+   "label": "Ulnar head of right pronator teres",
+   "conceptId": "FMA38562",
+   "elementFileIds": [
+    "FJ1516"
+   ]
+  },
+  {
+   "id": "muscles:FMA38563",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Ulnar_head_of_left_pronator_teres_FMA38563",
+   "label": "Ulnar head of left pronator teres",
+   "conceptId": "FMA38563",
+   "elementFileIds": [
+    "FJ1516M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38619",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Ulnar_head_of_right_flexor_carpi_ulnaris_FMA38619",
+   "label": "Ulnar head of right flexor carpi ulnaris",
+   "conceptId": "FMA38619",
+   "elementFileIds": [
+    "FJ1518"
+   ]
+  },
+  {
+   "id": "muscles:FMA38620",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Ulnar_head_of_left_flexor_carpi_ulnaris_FMA38620",
+   "label": "Ulnar head of left flexor carpi ulnaris",
+   "conceptId": "FMA38620",
+   "elementFileIds": [
+    "FJ1518M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38928",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_rectus_femoris_FMA38928",
+   "label": "Right rectus femoris",
+   "conceptId": "FMA38928",
+   "elementFileIds": [
+    "FJ1433"
+   ]
+  },
+  {
+   "id": "muscles:FMA38929",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_rectus_femoris_FMA38929",
+   "label": "Left rectus femoris",
+   "conceptId": "FMA38929",
+   "elementFileIds": [
+    "FJ1433M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38934",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_vastus_intermedius_FMA38934",
+   "label": "Right vastus intermedius",
+   "conceptId": "FMA38934",
+   "elementFileIds": [
+    "FJ1441"
+   ]
+  },
+  {
+   "id": "muscles:FMA38935",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_vastus_intermedius_FMA38935",
+   "label": "Left vastus intermedius",
+   "conceptId": "FMA38935",
+   "elementFileIds": [
+    "FJ1441M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38930",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_vastus_lateralis_FMA38930",
+   "label": "Right vastus lateralis",
+   "conceptId": "FMA38930",
+   "elementFileIds": [
+    "FJ1442"
+   ]
+  },
+  {
+   "id": "muscles:FMA38931",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_vastus_lateralis_FMA38931",
+   "label": "Left vastus lateralis",
+   "conceptId": "FMA38931",
+   "elementFileIds": [
+    "FJ1442M"
+   ]
+  },
+  {
+   "id": "muscles:FMA38932",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_vastus_medialis_FMA38932",
+   "label": "Right vastus medialis",
+   "conceptId": "FMA38932",
+   "elementFileIds": [
+    "FJ1443"
+   ]
+  },
+  {
+   "id": "muscles:FMA38933",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_vastus_medialis_FMA38933",
+   "label": "Left vastus medialis",
+   "conceptId": "FMA38933",
+   "elementFileIds": [
+    "FJ1443M"
+   ]
+  },
+  {
+   "id": "muscles:FMA45874",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Abdominal_part_of_right_pectoralis_major_FMA45874",
+   "label": "Abdominal part of right pectoralis major",
+   "conceptId": "FMA45874",
+   "elementFileIds": [
+    "FJ1446"
+   ]
+  },
+  {
+   "id": "muscles:FMA45875",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Abdominal_part_of_left_pectoralis_major_FMA45875",
+   "label": "Abdominal part of left pectoralis major",
+   "conceptId": "FMA45875",
+   "elementFileIds": [
+    "FJ1446M"
+   ]
+  },
+  {
+   "id": "muscles:FMA45859",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_iliococcygeus_FMA45859",
+   "label": "Left iliococcygeus",
+   "conceptId": "FMA45859",
+   "elementFileIds": [
+    "FJ1453M",
+    "FJ2544"
+   ]
+  },
+  {
+   "id": "muscles:FMA45855",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_pubococcygeus_FMA45855",
+   "label": "Left pubococcygeus",
+   "conceptId": "FMA45855",
+   "elementFileIds": [
+    "FJ1457M",
+    "FJ2545"
+   ]
+  },
+  {
+   "id": "muscles:FMA45857",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_puborectalis_FMA45857",
+   "label": "Left puborectalis",
+   "conceptId": "FMA45857",
+   "elementFileIds": [
+    "FJ1458M",
+    "FJ2546"
+   ]
+  },
+  {
+   "id": "muscles:FMA79979",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Sternocostal_part_of_right_pectoralis_major_FMA79979",
+   "label": "Sternocostal part of right pectoralis major",
+   "conceptId": "FMA79979",
+   "elementFileIds": [
+    "FJ1464"
+   ]
+  },
+  {
+   "id": "muscles:FMA79980",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Sternocostal_part_of_left_pectoralis_major_FMA79980",
+   "label": "Sternocostal part of left pectoralis major",
+   "conceptId": "FMA79980",
+   "elementFileIds": [
+    "FJ1464M"
+   ]
+  },
+  {
+   "id": "muscles:FMA34682",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Acromial_part_of_right_deltoid_FMA34682",
+   "label": "Acromial part of right deltoid",
+   "conceptId": "FMA34682",
+   "elementFileIds": [
+    "FJ1467"
+   ]
+  },
+  {
+   "id": "muscles:FMA34683",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Acromial_part_of_left_deltoid_FMA34683",
+   "label": "Acromial part of left deltoid",
+   "conceptId": "FMA34683",
+   "elementFileIds": [
+    "FJ1467M"
+   ]
+  },
+  {
+   "id": "muscles:FMA34680",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Clavicular_part_of_right_deltoid_FMA34680",
+   "label": "Clavicular part of right deltoid",
+   "conceptId": "FMA34680",
+   "elementFileIds": [
+    "FJ1468"
+   ]
+  },
+  {
+   "id": "muscles:FMA34681",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Clavicular_part_of_left_deltoid_FMA34681",
+   "label": "Clavicular part of left deltoid",
+   "conceptId": "FMA34681",
+   "elementFileIds": [
+    "FJ1468M"
+   ]
+  },
+  {
+   "id": "muscles:FMA34684",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Spinal_part_of_right_deltoid_FMA34684",
+   "label": "Spinal part of right deltoid",
+   "conceptId": "FMA34684",
+   "elementFileIds": [
+    "FJ1513"
+   ]
+  },
+  {
+   "id": "muscles:FMA34685",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Spinal_part_of_left_deltoid_FMA34685",
+   "label": "Spinal part of left deltoid",
+   "conceptId": "FMA34685",
+   "elementFileIds": [
+    "FJ1513M"
+   ]
+  },
+  {
+   "id": "muscles:FMA33584",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Transverse_part_of_right_trapezius_FMA33584",
+   "label": "Transverse part of right trapezius",
+   "conceptId": "FMA33584",
+   "elementFileIds": [
+    "FJ1554"
+   ]
+  },
+  {
+   "id": "muscles:FMA33585",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Transverse_part_of_left_trapezius_FMA33585",
+   "label": "Transverse part of left trapezius",
+   "conceptId": "FMA33585",
+   "elementFileIds": [
+    "FJ1554M"
+   ]
+  },
+  {
+   "id": "muscles:FMA46288",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Inferior_oblique_part_of_left_longus_colli_FMA46288",
+   "label": "Inferior oblique part of left longus colli",
+   "conceptId": "FMA46288",
+   "elementFileIds": [
+    "FJ1557"
+   ]
+  },
+  {
+   "id": "muscles:FMA46284",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Superior_oblique_part_of_left_longus_colli_FMA46284",
+   "label": "Superior oblique part of left longus colli",
+   "conceptId": "FMA46284",
+   "elementFileIds": [
+    "FJ1600"
+   ]
+  },
+  {
+   "id": "muscles:FMA46286",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Vertical_intermediate_part_of_left_longus_colli_FMA46286",
+   "label": "Vertical intermediate part of left longus colli",
+   "conceptId": "FMA46286",
+   "elementFileIds": [
+    "FJ1601"
+   ]
+  },
+  {
+   "id": "muscles:FMA45858",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_iliococcygeus_FMA45858",
+   "label": "Right iliococcygeus",
+   "conceptId": "FMA45858",
+   "elementFileIds": [
+    "FJ2549"
+   ]
+  },
+  {
+   "id": "muscles:FMA45854",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_pubococcygeus_FMA45854",
+   "label": "Right pubococcygeus",
+   "conceptId": "FMA45854",
+   "elementFileIds": [
+    "FJ2550"
+   ]
+  },
+  {
+   "id": "muscles:FMA45856",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_puborectalis_FMA45856",
+   "label": "Right puborectalis",
+   "conceptId": "FMA45856",
+   "elementFileIds": [
+    "FJ2551"
+   ]
+  },
+  {
+   "id": "muscles:FMA46605",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Left_aryepiglotticus_FMA46605",
+   "label": "Left aryepiglotticus",
+   "conceptId": "FMA46605",
+   "elementFileIds": [
+    "FJ2774"
+   ]
+  },
+  {
+   "id": "muscles:FMA46614",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Oblique_part_of_left_cricothyroid_FMA46614",
+   "label": "Oblique part of left cricothyroid",
+   "conceptId": "FMA46614",
+   "elementFileIds": [
+    "FJ2781"
+   ]
+  },
+  {
+   "id": "muscles:FMA46612",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Straight_part_of_left_cricothyroid_FMA46612",
+   "label": "Straight part of left cricothyroid",
+   "conceptId": "FMA46612",
+   "elementFileIds": [
+    "FJ2783"
+   ]
+  },
+  {
+   "id": "muscles:FMA46604",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Right_aryepiglotticus_FMA46604",
+   "label": "Right aryepiglotticus",
+   "conceptId": "FMA46604",
+   "elementFileIds": [
+    "FJ2791"
+   ]
+  },
+  {
+   "id": "muscles:FMA46613",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Oblique_part_of_right_cricothyroid_FMA46613",
+   "label": "Oblique part of right cricothyroid",
+   "conceptId": "FMA46613",
+   "elementFileIds": [
+    "FJ2799"
+   ]
+  },
+  {
+   "id": "muscles:FMA46611",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Straight_part_of_right_cricothyroid_FMA46611",
+   "label": "Straight part of right cricothyroid",
+   "conceptId": "FMA46611",
+   "elementFileIds": [
+    "FJ2801"
+   ]
+  },
+  {
+   "id": "muscles:FMA33581",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Ascending_part_of_right_trapezius_FMA33581",
+   "label": "Ascending part of right trapezius",
+   "conceptId": "FMA33581",
+   "elementFileIds": [
+    "FJ1520"
+   ]
+  },
+  {
+   "id": "muscles:FMA33583",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Ascending_part_of_left_trapezius_FMA33583",
+   "label": "Ascending part of left trapezius",
+   "conceptId": "FMA33583",
+   "elementFileIds": [
+    "FJ1520M"
+   ]
+  },
+  {
+   "id": "muscles:FMA33586",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Descending_part_of_right_trapezius_FMA33586",
+   "label": "Descending part of right trapezius",
+   "conceptId": "FMA33586",
+   "elementFileIds": [
+    "FJ1521"
+   ]
+  },
+  {
+   "id": "muscles:FMA33587",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Descending_part_of_left_trapezius_FMA33587",
+   "label": "Descending part of left trapezius",
+   "conceptId": "FMA33587",
+   "elementFileIds": [
+    "FJ1521M"
+   ]
+  },
+  {
+   "id": "muscles:FMA42398",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Set_of_lumbricals_of_right_hand_FMA42398",
+   "label": "Set of lumbricals of right hand",
+   "conceptId": "FMA42398",
+   "elementFileIds": [
+    "FJ1510"
+   ]
+  },
+  {
+   "id": "muscles:FMA42399",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Set_of_lumbricals_of_left_hand_FMA42399",
+   "label": "Set of lumbricals of left hand",
+   "conceptId": "FMA42399",
+   "elementFileIds": [
+    "FJ1510M"
+   ]
+  },
+  {
+   "id": "muscles:FMA42402",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Set_of_palmar_interossei_of_right_hand_FMA42402",
+   "label": "Set of palmar interossei of right hand",
+   "conceptId": "FMA42402",
+   "elementFileIds": [
+    "FJ1511"
+   ]
+  },
+  {
+   "id": "muscles:FMA42403",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Set_of_palmar_interossei_of_left_hand_FMA42403",
+   "label": "Set of palmar interossei of left hand",
+   "conceptId": "FMA42403",
+   "elementFileIds": [
+    "FJ1511M"
+   ]
+  },
+  {
+   "id": "muscles:FMA42404",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Set_of_dorsal_interossei_of_right_hand_FMA42404",
+   "label": "Set of dorsal interossei of right hand",
+   "conceptId": "FMA42404",
+   "elementFileIds": [
+    "FJ1509"
+   ]
+  },
+  {
+   "id": "muscles:FMA42405",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Set_of_dorsal_interossei_of_left_hand_FMA42405",
+   "label": "Set of dorsal interossei of left hand",
+   "conceptId": "FMA42405",
+   "elementFileIds": [
+    "FJ1509M"
+   ]
+  },
+  {
+   "id": "muscles:FMA74075",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Set_of_right_levatores_costarum_longi_FMA74075",
+   "label": "Set of right levatores costarum longi",
+   "conceptId": "FMA74075",
+   "elementFileIds": [
+    "FJ1463"
+   ]
+  },
+  {
+   "id": "muscles:FMA74076",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Set_of_left_levatores_costarum_longi_FMA74076",
+   "label": "Set of left levatores costarum longi",
+   "conceptId": "FMA74076",
+   "elementFileIds": [
+    "FJ1463M"
+   ]
+  },
+  {
+   "id": "muscles:FMA74077",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Set_of_right_levatores_costarum_breves_FMA74077",
+   "label": "Set of right levatores costarum breves",
+   "conceptId": "FMA74077",
+   "elementFileIds": [
+    "FJ1462"
+   ]
+  },
+  {
+   "id": "muscles:FMA74078",
+   "layerId": "muscles",
+   "systemId": "muscular",
+   "nodeName": "Set_of_left_levatores_costarum_breves_FMA74078",
+   "label": "Set of left levatores costarum breves",
+   "conceptId": "FMA74078",
+   "elementFileIds": [
+    "FJ1462M"
+   ]
+  },
+  {
+   "id": "skeleton:FMA52749",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Hyoid_bone_FMA52749",
+   "label": "Hyoid bone",
+   "conceptId": "FMA52749",
+   "elementFileIds": [
+    "FJ2772",
+    "FJ3201"
+   ]
+  },
+  {
+   "id": "skeleton:FMA16586",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_hip_bone_FMA16586",
+   "label": "Right hip bone",
+   "conceptId": "FMA16586",
+   "elementFileIds": [
+    "FJ3152"
+   ]
+  },
+  {
+   "id": "skeleton:FMA10037",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Tenth_thoracic_vertebra_FMA10037",
+   "label": "Tenth thoracic vertebra",
+   "conceptId": "FMA10037",
+   "elementFileIds": [
+    "FJ3154"
+   ]
+  },
+  {
+   "id": "skeleton:FMA10059",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Eleventh_thoracic_vertebra_FMA10059",
+   "label": "Eleventh thoracic vertebra",
+   "conceptId": "FMA10059",
+   "elementFileIds": [
+    "FJ3155"
+   ]
+  },
+  {
+   "id": "skeleton:FMA10081",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Twelfth_thoracic_vertebra_FMA10081",
+   "label": "Twelfth thoracic vertebra",
+   "conceptId": "FMA10081",
+   "elementFileIds": [
+    "FJ3156"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13072",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "First_lumbar_vertebra_FMA13072",
+   "label": "First lumbar vertebra",
+   "conceptId": "FMA13072",
+   "elementFileIds": [
+    "FJ3157"
+   ]
+  },
+  {
+   "id": "skeleton:FMA9165",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "First_thoracic_vertebra_FMA9165",
+   "label": "First thoracic vertebra",
+   "conceptId": "FMA9165",
+   "elementFileIds": [
+    "FJ3158"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13073",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Second_lumbar_vertebra_FMA13073",
+   "label": "Second lumbar vertebra",
+   "conceptId": "FMA13073",
+   "elementFileIds": [
+    "FJ3159"
+   ]
+  },
+  {
+   "id": "skeleton:FMA9187",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Second_thoracic_vertebra_FMA9187",
+   "label": "Second thoracic vertebra",
+   "conceptId": "FMA9187",
+   "elementFileIds": [
+    "FJ3160"
+   ]
+  },
+  {
+   "id": "skeleton:FMA12521",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Third_cervical_vertebra_FMA12521",
+   "label": "Third cervical vertebra",
+   "conceptId": "FMA12521",
+   "elementFileIds": [
+    "FJ3161"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13074",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Third_lumbar_vertebra_FMA13074",
+   "label": "Third lumbar vertebra",
+   "conceptId": "FMA13074",
+   "elementFileIds": [
+    "FJ3162"
+   ]
+  },
+  {
+   "id": "skeleton:FMA9209",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Third_thoracic_vertebra_FMA9209",
+   "label": "Third thoracic vertebra",
+   "conceptId": "FMA9209",
+   "elementFileIds": [
+    "FJ3163"
+   ]
+  },
+  {
+   "id": "skeleton:FMA12522",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Fourth_cervical_vertebra_FMA12522",
+   "label": "Fourth cervical vertebra",
+   "conceptId": "FMA12522",
+   "elementFileIds": [
+    "FJ3164"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13075",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Fourth_lumbar_vertebra_FMA13075",
+   "label": "Fourth lumbar vertebra",
+   "conceptId": "FMA13075",
+   "elementFileIds": [
+    "FJ3165"
+   ]
+  },
+  {
+   "id": "skeleton:FMA9248",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Fourth_thoracic_vertebra_FMA9248",
+   "label": "Fourth thoracic vertebra",
+   "conceptId": "FMA9248",
+   "elementFileIds": [
+    "FJ3166"
+   ]
+  },
+  {
+   "id": "skeleton:FMA12523",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Fifth_cervical_vertebra_FMA12523",
+   "label": "Fifth cervical vertebra",
+   "conceptId": "FMA12523",
+   "elementFileIds": [
+    "FJ3167"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13076",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Fifth_lumbar_vertebra_FMA13076",
+   "label": "Fifth lumbar vertebra",
+   "conceptId": "FMA13076",
+   "elementFileIds": [
+    "FJ3168"
+   ]
+  },
+  {
+   "id": "skeleton:FMA9922",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Fifth_thoracic_vertebra_FMA9922",
+   "label": "Fifth thoracic vertebra",
+   "conceptId": "FMA9922",
+   "elementFileIds": [
+    "FJ3169"
+   ]
+  },
+  {
+   "id": "skeleton:FMA12524",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Sixth_cervical_vertebra_FMA12524",
+   "label": "Sixth cervical vertebra",
+   "conceptId": "FMA12524",
+   "elementFileIds": [
+    "FJ3170"
+   ]
+  },
+  {
+   "id": "skeleton:FMA9945",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Sixth_thoracic_vertebra_FMA9945",
+   "label": "Sixth thoracic vertebra",
+   "conceptId": "FMA9945",
+   "elementFileIds": [
+    "FJ3171"
+   ]
+  },
+  {
+   "id": "skeleton:FMA12525",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Seventh_cervical_vertebra_FMA12525",
+   "label": "Seventh cervical vertebra",
+   "conceptId": "FMA12525",
+   "elementFileIds": [
+    "FJ3172"
+   ]
+  },
+  {
+   "id": "skeleton:FMA9968",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Seventh_thoracic_vertebra_FMA9968",
+   "label": "Seventh thoracic vertebra",
+   "conceptId": "FMA9968",
+   "elementFileIds": [
+    "FJ3173"
+   ]
+  },
+  {
+   "id": "skeleton:FMA9991",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Eighth_thoracic_vertebra_FMA9991",
+   "label": "Eighth thoracic vertebra",
+   "conceptId": "FMA9991",
+   "elementFileIds": [
+    "FJ3174"
+   ]
+  },
+  {
+   "id": "skeleton:FMA10014",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Ninth_thoracic_vertebra_FMA10014",
+   "label": "Ninth thoracic vertebra",
+   "conceptId": "FMA10014",
+   "elementFileIds": [
+    "FJ3175"
+   ]
+  },
+  {
+   "id": "skeleton:FMA12519",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Atlas_FMA12519",
+   "label": "Atlas",
+   "conceptId": "FMA12519",
+   "elementFileIds": [
+    "FJ3176"
+   ]
+  },
+  {
+   "id": "skeleton:FMA12520",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Axis_FMA12520",
+   "label": "Axis",
+   "conceptId": "FMA12520",
+   "elementFileIds": [
+    "FJ3177"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32653",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_left_second_toe_FMA32653",
+   "label": "Distal phalanx of left second toe",
+   "conceptId": "FMA32653",
+   "elementFileIds": [
+    "FJ3179"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32655",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_left_third_toe_FMA32655",
+   "label": "Distal phalanx of left third toe",
+   "conceptId": "FMA32655",
+   "elementFileIds": [
+    "FJ3180"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32657",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_left_fourth_toe_FMA32657",
+   "label": "Distal phalanx of left fourth toe",
+   "conceptId": "FMA32657",
+   "elementFileIds": [
+    "FJ3181"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32651",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_left_big_toe_FMA32651",
+   "label": "Distal phalanx of left big toe",
+   "conceptId": "FMA32651",
+   "elementFileIds": [
+    "FJ3182"
+   ]
+  },
+  {
+   "id": "skeleton:FMA23953",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_left_index_finger_FMA23953",
+   "label": "Distal phalanx of left index finger",
+   "conceptId": "FMA23953",
+   "elementFileIds": [
+    "FJ3183"
+   ]
+  },
+  {
+   "id": "skeleton:FMA23959",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_left_little_finger_FMA23959",
+   "label": "Distal phalanx of left little finger",
+   "conceptId": "FMA23959",
+   "elementFileIds": [
+    "FJ3184"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32659",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_left_little_toe_FMA32659",
+   "label": "Distal phalanx of left little toe",
+   "conceptId": "FMA32659",
+   "elementFileIds": [
+    "FJ3185"
+   ]
+  },
+  {
+   "id": "skeleton:FMA23955",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_left_middle_finger_FMA23955",
+   "label": "Distal phalanx of left middle finger",
+   "conceptId": "FMA23955",
+   "elementFileIds": [
+    "FJ3186"
+   ]
+  },
+  {
+   "id": "skeleton:FMA23957",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_left_ring_finger_FMA23957",
+   "label": "Distal phalanx of left ring finger",
+   "conceptId": "FMA23957",
+   "elementFileIds": [
+    "FJ3187"
+   ]
+  },
+  {
+   "id": "skeleton:FMA23951",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_left_thumb_FMA23951",
+   "label": "Distal phalanx of left thumb",
+   "conceptId": "FMA23951",
+   "elementFileIds": [
+    "FJ3188"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32652",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_right_second_toe_FMA32652",
+   "label": "Distal phalanx of right second toe",
+   "conceptId": "FMA32652",
+   "elementFileIds": [
+    "FJ3189"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32654",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_right_third_toe_FMA32654",
+   "label": "Distal phalanx of right third toe",
+   "conceptId": "FMA32654",
+   "elementFileIds": [
+    "FJ3190"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32656",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_right_fourth_toe_FMA32656",
+   "label": "Distal phalanx of right fourth toe",
+   "conceptId": "FMA32656",
+   "elementFileIds": [
+    "FJ3191"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32650",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_right_big_toe_FMA32650",
+   "label": "Distal phalanx of right big toe",
+   "conceptId": "FMA32650",
+   "elementFileIds": [
+    "FJ3192"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24460",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_right_index_finger_FMA24460",
+   "label": "Distal phalanx of right index finger",
+   "conceptId": "FMA24460",
+   "elementFileIds": [
+    "FJ3193"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24463",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_right_little_finger_FMA24463",
+   "label": "Distal phalanx of right little finger",
+   "conceptId": "FMA24463",
+   "elementFileIds": [
+    "FJ3194"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32658",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_right_little_toe_FMA32658",
+   "label": "Distal phalanx of right little toe",
+   "conceptId": "FMA32658",
+   "elementFileIds": [
+    "FJ3195"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24461",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_right_middle_finger_FMA24461",
+   "label": "Distal phalanx of right middle finger",
+   "conceptId": "FMA24461",
+   "elementFileIds": [
+    "FJ3196"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24462",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_right_ring_finger_FMA24462",
+   "label": "Distal phalanx of right ring finger",
+   "conceptId": "FMA24462",
+   "elementFileIds": [
+    "FJ3197"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24459",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Distal_phalanx_of_right_thumb_FMA24459",
+   "label": "Distal phalanx of right thumb",
+   "conceptId": "FMA24459",
+   "elementFileIds": [
+    "FJ3198"
+   ]
+  },
+  {
+   "id": "skeleton:FMA52740",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Ethmoid_FMA52740",
+   "label": "Ethmoid",
+   "conceptId": "FMA52740",
+   "elementFileIds": [
+    "FJ3199"
+   ]
+  },
+  {
+   "id": "skeleton:FMA52734",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Frontal_bone_FMA52734",
+   "label": "Frontal bone",
+   "conceptId": "FMA52734",
+   "elementFileIds": [
+    "FJ3200"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8472",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_tenth_rib_FMA8472",
+   "label": "Left tenth rib",
+   "conceptId": "FMA8472",
+   "elementFileIds": [
+    "FJ3225"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8532",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_eleventh_rib_FMA8532",
+   "label": "Left eleventh rib",
+   "conceptId": "FMA8532",
+   "elementFileIds": [
+    "FJ3226"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8534",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_twelfth_rib_FMA8534",
+   "label": "Left twelfth rib",
+   "conceptId": "FMA8534",
+   "elementFileIds": [
+    "FJ3227"
+   ]
+  },
+  {
+   "id": "skeleton:FMA7987",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_first_rib_FMA7987",
+   "label": "Left first rib",
+   "conceptId": "FMA7987",
+   "elementFileIds": [
+    "FJ3228"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8012",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_second_rib_FMA8012",
+   "label": "Left second rib",
+   "conceptId": "FMA8012",
+   "elementFileIds": [
+    "FJ3229"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8039",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_third_rib_FMA8039",
+   "label": "Left third rib",
+   "conceptId": "FMA8039",
+   "elementFileIds": [
+    "FJ3230"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8148",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_fourth_rib_FMA8148",
+   "label": "Left fourth rib",
+   "conceptId": "FMA8148",
+   "elementFileIds": [
+    "FJ3231"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8093",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_fifth_rib_FMA8093",
+   "label": "Left fifth rib",
+   "conceptId": "FMA8093",
+   "elementFileIds": [
+    "FJ3232"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8202",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_sixth_rib_FMA8202",
+   "label": "Left sixth rib",
+   "conceptId": "FMA8202",
+   "elementFileIds": [
+    "FJ3233"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8256",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_seventh_rib_FMA8256",
+   "label": "Left seventh rib",
+   "conceptId": "FMA8256",
+   "elementFileIds": [
+    "FJ3234"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8310",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_eighth_rib_FMA8310",
+   "label": "Left eighth rib",
+   "conceptId": "FMA8310",
+   "elementFileIds": [
+    "FJ3235"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8391",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_ninth_rib_FMA8391",
+   "label": "Left ninth rib",
+   "conceptId": "FMA8391",
+   "elementFileIds": [
+    "FJ3236"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13323",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_clavicle_FMA13323",
+   "label": "Left clavicle",
+   "conceptId": "FMA13323",
+   "elementFileIds": [
+    "FJ3237"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24465",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_first_metacarpal_bone_FMA24465",
+   "label": "Left first metacarpal bone",
+   "conceptId": "FMA24465",
+   "elementFileIds": [
+    "FJ3240"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24508",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_first_metatarsal_bone_FMA24508",
+   "label": "Left first metatarsal bone",
+   "conceptId": "FMA24508",
+   "elementFileIds": [
+    "FJ3241"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24467",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_second_metacarpal_bone_FMA24467",
+   "label": "Left second metacarpal bone",
+   "conceptId": "FMA24467",
+   "elementFileIds": [
+    "FJ3243"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24510",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_second_metatarsal_bone_FMA24510",
+   "label": "Left second metatarsal bone",
+   "conceptId": "FMA24510",
+   "elementFileIds": [
+    "FJ3244"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24469",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_third_metacarpal_bone_FMA24469",
+   "label": "Left third metacarpal bone",
+   "conceptId": "FMA24469",
+   "elementFileIds": [
+    "FJ3246"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24512",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_third_metatarsal_bone_FMA24512",
+   "label": "Left third metatarsal bone",
+   "conceptId": "FMA24512",
+   "elementFileIds": [
+    "FJ3247"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24471",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_fourth_metacarpal_bone_FMA24471",
+   "label": "Left fourth metacarpal bone",
+   "conceptId": "FMA24471",
+   "elementFileIds": [
+    "FJ3249"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24514",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_fourth_metatarsal_bone_FMA24514",
+   "label": "Left fourth metatarsal bone",
+   "conceptId": "FMA24514",
+   "elementFileIds": [
+    "FJ3250"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24473",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_fifth_metacarpal_bone_FMA24473",
+   "label": "Left fifth metacarpal bone",
+   "conceptId": "FMA24473",
+   "elementFileIds": [
+    "FJ3252"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24516",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_fifth_metatarsal_bone_FMA24516",
+   "label": "Left fifth metatarsal bone",
+   "conceptId": "FMA24516",
+   "elementFileIds": [
+    "FJ3253"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24498",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_calcaneus_FMA24498",
+   "label": "Left calcaneus",
+   "conceptId": "FMA24498",
+   "elementFileIds": [
+    "FJ3256"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24447",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_capitate_FMA24447",
+   "label": "Left capitate",
+   "conceptId": "FMA24447",
+   "elementFileIds": [
+    "FJ3257"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24529",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_cuboid_bone_FMA24529",
+   "label": "Left cuboid bone",
+   "conceptId": "FMA24529",
+   "elementFileIds": [
+    "FJ3258"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24475",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_femur_FMA24475",
+   "label": "Left femur",
+   "conceptId": "FMA24475",
+   "elementFileIds": [
+    "FJ3259"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24481",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_fibula_FMA24481",
+   "label": "Left fibula",
+   "conceptId": "FMA24481",
+   "elementFileIds": [
+    "FJ3260"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24449",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_hamate_FMA24449",
+   "label": "Left hamate",
+   "conceptId": "FMA24449",
+   "elementFileIds": [
+    "FJ3261"
+   ]
+  },
+  {
+   "id": "skeleton:FMA23131",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_humerus_FMA23131",
+   "label": "Left humerus",
+   "conceptId": "FMA23131",
+   "elementFileIds": [
+    "FJ3262"
+   ]
+  },
+  {
+   "id": "skeleton:FMA54738",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_inferior_nasal_concha_FMA54738",
+   "label": "Left inferior nasal concha",
+   "conceptId": "FMA54738",
+   "elementFileIds": [
+    "FJ3263"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24524",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_intermediate_cuneiform_bone_FMA24524",
+   "label": "Left intermediate cuneiform bone",
+   "conceptId": "FMA24524",
+   "elementFileIds": [
+    "FJ3264"
+   ]
+  },
+  {
+   "id": "skeleton:FMA53646",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_lacrimal_bone_FMA53646",
+   "label": "Left lacrimal bone",
+   "conceptId": "FMA53646",
+   "elementFileIds": [
+    "FJ3265"
+   ]
+  },
+  {
+   "id": "skeleton:FMA45098",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Sesamoid_bone_of_left_foot_FMA45098",
+   "label": "Sesamoid bone of left foot",
+   "conceptId": "FMA45098",
+   "elementFileIds": [
+    "FJ3266",
+    "FJ3270"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24526",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_lateral_cuneiform_bone_FMA24526",
+   "label": "Left lateral cuneiform bone",
+   "conceptId": "FMA24526",
+   "elementFileIds": [
+    "FJ3267"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24438",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_lunate_FMA24438",
+   "label": "Left lunate",
+   "conceptId": "FMA24438",
+   "elementFileIds": [
+    "FJ3268"
+   ]
+  },
+  {
+   "id": "skeleton:FMA53650",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_maxilla_FMA53650",
+   "label": "Left maxilla",
+   "conceptId": "FMA53650",
+   "elementFileIds": [
+    "FJ3269"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24522",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_medial_cuneiform_bone_FMA24522",
+   "label": "Left medial cuneiform bone",
+   "conceptId": "FMA24522",
+   "elementFileIds": [
+    "FJ3271"
+   ]
+  },
+  {
+   "id": "skeleton:FMA53648",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_nasal_bone_FMA53648",
+   "label": "Left nasal bone",
+   "conceptId": "FMA53648",
+   "elementFileIds": [
+    "FJ3272"
+   ]
+  },
+  {
+   "id": "skeleton:FMA53656",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_palatine_bone_FMA53656",
+   "label": "Left palatine bone",
+   "conceptId": "FMA53656",
+   "elementFileIds": [
+    "FJ3273"
+   ]
+  },
+  {
+   "id": "skeleton:FMA52789",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_parietal_bone_FMA52789",
+   "label": "Left parietal bone",
+   "conceptId": "FMA52789",
+   "elementFileIds": [
+    "FJ3274"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24487",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_patella_FMA24487",
+   "label": "Left patella",
+   "conceptId": "FMA24487",
+   "elementFileIds": [
+    "FJ3275"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24442",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_pisiform_FMA24442",
+   "label": "Left pisiform",
+   "conceptId": "FMA24442",
+   "elementFileIds": [
+    "FJ3276"
+   ]
+  },
+  {
+   "id": "skeleton:FMA23465",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_radius_FMA23465",
+   "label": "Left radius",
+   "conceptId": "FMA23465",
+   "elementFileIds": [
+    "FJ3277"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24436",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_scaphoid_FMA24436",
+   "label": "Left scaphoid",
+   "conceptId": "FMA24436",
+   "elementFileIds": [
+    "FJ3278"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13396",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_scapula_FMA13396",
+   "label": "Left scapula",
+   "conceptId": "FMA13396",
+   "elementFileIds": [
+    "FJ3279"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24483",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_talus_FMA24483",
+   "label": "Left talus",
+   "conceptId": "FMA24483",
+   "elementFileIds": [
+    "FJ3280"
+   ]
+  },
+  {
+   "id": "skeleton:FMA52739",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_temporal_bone_FMA52739",
+   "label": "Left temporal bone",
+   "conceptId": "FMA52739",
+   "elementFileIds": [
+    "FJ3281"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24478",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_tibia_FMA24478",
+   "label": "Left tibia",
+   "conceptId": "FMA24478",
+   "elementFileIds": [
+    "FJ3282"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24444",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_trapezium_FMA24444",
+   "label": "Left trapezium",
+   "conceptId": "FMA24444",
+   "elementFileIds": [
+    "FJ3283"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24445",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_trapezoid_FMA24445",
+   "label": "Left trapezoid",
+   "conceptId": "FMA24445",
+   "elementFileIds": [
+    "FJ3284"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24440",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_triquetral_FMA24440",
+   "label": "Left triquetral",
+   "conceptId": "FMA24440",
+   "elementFileIds": [
+    "FJ3285"
+   ]
+  },
+  {
+   "id": "skeleton:FMA23468",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_ulna_FMA23468",
+   "label": "Left ulna",
+   "conceptId": "FMA23468",
+   "elementFileIds": [
+    "FJ3286"
+   ]
+  },
+  {
+   "id": "skeleton:FMA52893",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_zygomatic_bone_FMA52893",
+   "label": "Left zygomatic bone",
+   "conceptId": "FMA52893",
+   "elementFileIds": [
+    "FJ3287"
+   ]
+  },
+  {
+   "id": "skeleton:FMA16587",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_hip_bone_FMA16587",
+   "label": "Left hip bone",
+   "conceptId": "FMA16587",
+   "elementFileIds": [
+    "FJ3288"
+   ]
+  },
+  {
+   "id": "skeleton:FMA52748",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Mandible_FMA52748",
+   "label": "Mandible",
+   "conceptId": "FMA52748",
+   "elementFileIds": [
+    "FJ3289"
+   ]
+  },
+  {
+   "id": "skeleton:FMA23942",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Middle_phalanx_of_left_ring_finger_FMA23942",
+   "label": "Middle phalanx of left ring finger",
+   "conceptId": "FMA23942",
+   "elementFileIds": [
+    "FJ3291"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24457",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Middle_phalanx_of_right_ring_finger_FMA24457",
+   "label": "Middle phalanx of right ring finger",
+   "conceptId": "FMA24457",
+   "elementFileIds": [
+    "FJ3292"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32643",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Middle_phalanx_of_left_second_toe_FMA32643",
+   "label": "Middle phalanx of left second toe",
+   "conceptId": "FMA32643",
+   "elementFileIds": [
+    "FJ3293"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32645",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Middle_phalanx_of_left_third_toe_FMA32645",
+   "label": "Middle phalanx of left third toe",
+   "conceptId": "FMA32645",
+   "elementFileIds": [
+    "FJ3294"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32647",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Middle_phalanx_of_left_fourth_toe_FMA32647",
+   "label": "Middle phalanx of left fourth toe",
+   "conceptId": "FMA32647",
+   "elementFileIds": [
+    "FJ3295"
+   ]
+  },
+  {
+   "id": "skeleton:FMA23938",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Middle_phalanx_of_left_index_finger_FMA23938",
+   "label": "Middle phalanx of left index finger",
+   "conceptId": "FMA23938",
+   "elementFileIds": [
+    "FJ3296"
+   ]
+  },
+  {
+   "id": "skeleton:FMA23944",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Middle_phalanx_of_left_little_finger_FMA23944",
+   "label": "Middle phalanx of left little finger",
+   "conceptId": "FMA23944",
+   "elementFileIds": [
+    "FJ3297"
+   ]
+  },
+  {
+   "id": "skeleton:FMA230988",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Middle_phalanx_of_left_little_toe_FMA230988",
+   "label": "Middle phalanx of left little toe",
+   "conceptId": "FMA230988",
+   "elementFileIds": [
+    "FJ3298"
+   ]
+  },
+  {
+   "id": "skeleton:FMA23940",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Middle_phalanx_of_left_middle_finger_FMA23940",
+   "label": "Middle phalanx of left middle finger",
+   "conceptId": "FMA23940",
+   "elementFileIds": [
+    "FJ3299"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32642",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Middle_phalanx_of_right_second_toe_FMA32642",
+   "label": "Middle phalanx of right second toe",
+   "conceptId": "FMA32642",
+   "elementFileIds": [
+    "FJ3300"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32644",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Middle_phalanx_of_right_third_toe_FMA32644",
+   "label": "Middle phalanx of right third toe",
+   "conceptId": "FMA32644",
+   "elementFileIds": [
+    "FJ3301"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32646",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Middle_phalanx_of_right_fourth_toe_FMA32646",
+   "label": "Middle phalanx of right fourth toe",
+   "conceptId": "FMA32646",
+   "elementFileIds": [
+    "FJ3302"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24455",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Middle_phalanx_of_right_index_finger_FMA24455",
+   "label": "Middle phalanx of right index finger",
+   "conceptId": "FMA24455",
+   "elementFileIds": [
+    "FJ3303"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24458",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Middle_phalanx_of_right_little_finger_FMA24458",
+   "label": "Middle phalanx of right little finger",
+   "conceptId": "FMA24458",
+   "elementFileIds": [
+    "FJ3304"
+   ]
+  },
+  {
+   "id": "skeleton:FMA230986",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Middle_phalanx_of_right_little_toe_FMA230986",
+   "label": "Middle phalanx of right little toe",
+   "conceptId": "FMA230986",
+   "elementFileIds": [
+    "FJ3305"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24456",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Middle_phalanx_of_right_middle_finger_FMA24456",
+   "label": "Middle phalanx of right middle finger",
+   "conceptId": "FMA24456",
+   "elementFileIds": [
+    "FJ3306"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24501",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Navicular_bone_of_left_foot_FMA24501",
+   "label": "Navicular bone of left foot",
+   "conceptId": "FMA24501",
+   "elementFileIds": [
+    "FJ3307"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24500",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Navicular_bone_of_right_foot_FMA24500",
+   "label": "Navicular bone of right foot",
+   "conceptId": "FMA24500",
+   "elementFileIds": [
+    "FJ3308"
+   ]
+  },
+  {
+   "id": "skeleton:FMA52735",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Occipital_bone_FMA52735",
+   "label": "Occipital bone",
+   "conceptId": "FMA52735",
+   "elementFileIds": [
+    "FJ3309"
+   ]
+  },
+  {
+   "id": "skeleton:FMA43253",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_right_big_toe_FMA43253",
+   "label": "Proximal phalanx of right big toe",
+   "conceptId": "FMA43253",
+   "elementFileIds": [
+    "FJ3310"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32637",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_left_third_toe_FMA32637",
+   "label": "Proximal phalanx of left third toe",
+   "conceptId": "FMA32637",
+   "elementFileIds": [
+    "FJ3311"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32639",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_left_fourth_toe_FMA32639",
+   "label": "Proximal phalanx of left fourth toe",
+   "conceptId": "FMA32639",
+   "elementFileIds": [
+    "FJ3312"
+   ]
+  },
+  {
+   "id": "skeleton:FMA71915",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_left_index_finger_FMA71915",
+   "label": "Proximal phalanx of left index finger",
+   "conceptId": "FMA71915",
+   "elementFileIds": [
+    "FJ3313"
+   ]
+  },
+  {
+   "id": "skeleton:FMA66791",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_left_little_finger_FMA66791",
+   "label": "Proximal phalanx of left little finger",
+   "conceptId": "FMA66791",
+   "elementFileIds": [
+    "FJ3314"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32641",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_left_little_toe_FMA32641",
+   "label": "Proximal phalanx of left little toe",
+   "conceptId": "FMA32641",
+   "elementFileIds": [
+    "FJ3315"
+   ]
+  },
+  {
+   "id": "skeleton:FMA71908",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_left_middle_finger_FMA71908",
+   "label": "Proximal phalanx of left middle finger",
+   "conceptId": "FMA71908",
+   "elementFileIds": [
+    "FJ3316"
+   ]
+  },
+  {
+   "id": "skeleton:FMA71916",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_left_ring_finger_FMA71916",
+   "label": "Proximal phalanx of left ring finger",
+   "conceptId": "FMA71916",
+   "elementFileIds": [
+    "FJ3317"
+   ]
+  },
+  {
+   "id": "skeleton:FMA65470",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_left_thumb_FMA65470",
+   "label": "Proximal phalanx of left thumb",
+   "conceptId": "FMA65470",
+   "elementFileIds": [
+    "FJ3318"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32634",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_right_second_toe_FMA32634",
+   "label": "Proximal phalanx of right second toe",
+   "conceptId": "FMA32634",
+   "elementFileIds": [
+    "FJ3319"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32636",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_right_third_toe_FMA32636",
+   "label": "Proximal phalanx of right third toe",
+   "conceptId": "FMA32636",
+   "elementFileIds": [
+    "FJ3320"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32638",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_right_fourth_toe_FMA32638",
+   "label": "Proximal phalanx of right fourth toe",
+   "conceptId": "FMA32638",
+   "elementFileIds": [
+    "FJ3321"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24451",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_right_index_finger_FMA24451",
+   "label": "Proximal phalanx of right index finger",
+   "conceptId": "FMA24451",
+   "elementFileIds": [
+    "FJ3322"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24454",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_right_little_finger_FMA24454",
+   "label": "Proximal phalanx of right little finger",
+   "conceptId": "FMA24454",
+   "elementFileIds": [
+    "FJ3323"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32640",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_right_little_toe_FMA32640",
+   "label": "Proximal phalanx of right little toe",
+   "conceptId": "FMA32640",
+   "elementFileIds": [
+    "FJ3324"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24452",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_right_middle_finger_FMA24452",
+   "label": "Proximal phalanx of right middle finger",
+   "conceptId": "FMA24452",
+   "elementFileIds": [
+    "FJ3325"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24453",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_right_ring_finger_FMA24453",
+   "label": "Proximal phalanx of right ring finger",
+   "conceptId": "FMA24453",
+   "elementFileIds": [
+    "FJ3326"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24450",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_right_thumb_FMA24450",
+   "label": "Proximal phalanx of right thumb",
+   "conceptId": "FMA24450",
+   "elementFileIds": [
+    "FJ3327"
+   ]
+  },
+  {
+   "id": "skeleton:FMA32635",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_left_second_toe_FMA32635",
+   "label": "Proximal phalanx of left second toe",
+   "conceptId": "FMA32635",
+   "elementFileIds": [
+    "FJ3328"
+   ]
+  },
+  {
+   "id": "skeleton:FMA43254",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Proximal_phalanx_of_left_big_toe_FMA43254",
+   "label": "Proximal phalanx of left big toe",
+   "conceptId": "FMA43254",
+   "elementFileIds": [
+    "FJ3329"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8445",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_tenth_rib_FMA8445",
+   "label": "Right tenth rib",
+   "conceptId": "FMA8445",
+   "elementFileIds": [
+    "FJ3330"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8531",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_eleventh_rib_FMA8531",
+   "label": "Right eleventh rib",
+   "conceptId": "FMA8531",
+   "elementFileIds": [
+    "FJ3331"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8533",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_twelfth_rib_FMA8533",
+   "label": "Right twelfth rib",
+   "conceptId": "FMA8533",
+   "elementFileIds": [
+    "FJ3332"
+   ]
+  },
+  {
+   "id": "skeleton:FMA7857",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_first_rib_FMA7857",
+   "label": "Right first rib",
+   "conceptId": "FMA7857",
+   "elementFileIds": [
+    "FJ3334"
+   ]
+  },
+  {
+   "id": "skeleton:FMA7882",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_second_rib_FMA7882",
+   "label": "Right second rib",
+   "conceptId": "FMA7882",
+   "elementFileIds": [
+    "FJ3336"
+   ]
+  },
+  {
+   "id": "skeleton:FMA7909",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_third_rib_FMA7909",
+   "label": "Right third rib",
+   "conceptId": "FMA7909",
+   "elementFileIds": [
+    "FJ3338"
+   ]
+  },
+  {
+   "id": "skeleton:FMA7957",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_fourth_rib_FMA7957",
+   "label": "Right fourth rib",
+   "conceptId": "FMA7957",
+   "elementFileIds": [
+    "FJ3340"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8066",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_fifth_rib_FMA8066",
+   "label": "Right fifth rib",
+   "conceptId": "FMA8066",
+   "elementFileIds": [
+    "FJ3342"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8175",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_sixth_rib_FMA8175",
+   "label": "Right sixth rib",
+   "conceptId": "FMA8175",
+   "elementFileIds": [
+    "FJ3344"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8229",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_seventh_rib_FMA8229",
+   "label": "Right seventh rib",
+   "conceptId": "FMA8229",
+   "elementFileIds": [
+    "FJ3346"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8283",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_eighth_rib_FMA8283",
+   "label": "Right eighth rib",
+   "conceptId": "FMA8283",
+   "elementFileIds": [
+    "FJ3347"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8364",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_ninth_rib_FMA8364",
+   "label": "Right ninth rib",
+   "conceptId": "FMA8364",
+   "elementFileIds": [
+    "FJ3348"
+   ]
+  },
+  {
+   "id": "skeleton:FMA23464",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_radius_FMA23464",
+   "label": "Right radius",
+   "conceptId": "FMA23464",
+   "elementFileIds": [
+    "FJ3349"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24464",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_first_metacarpal_bone_FMA24464",
+   "label": "Right first metacarpal bone",
+   "conceptId": "FMA24464",
+   "elementFileIds": [
+    "FJ3350"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24507",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_first_metatarsal_bone_FMA24507",
+   "label": "Right first metatarsal bone",
+   "conceptId": "FMA24507",
+   "elementFileIds": [
+    "FJ3351"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24466",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_second_metacarpal_bone_FMA24466",
+   "label": "Right second metacarpal bone",
+   "conceptId": "FMA24466",
+   "elementFileIds": [
+    "FJ3352"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24509",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_second_metatarsal_bone_FMA24509",
+   "label": "Right second metatarsal bone",
+   "conceptId": "FMA24509",
+   "elementFileIds": [
+    "FJ3353"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24468",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_third_metacarpal_bone_FMA24468",
+   "label": "Right third metacarpal bone",
+   "conceptId": "FMA24468",
+   "elementFileIds": [
+    "FJ3354"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24511",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_third_metatarsal_bone_FMA24511",
+   "label": "Right third metatarsal bone",
+   "conceptId": "FMA24511",
+   "elementFileIds": [
+    "FJ3355"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24470",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_fourth_metacarpal_bone_FMA24470",
+   "label": "Right fourth metacarpal bone",
+   "conceptId": "FMA24470",
+   "elementFileIds": [
+    "FJ3356"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24513",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_fourth_metatarsal_bone_FMA24513",
+   "label": "Right fourth metatarsal bone",
+   "conceptId": "FMA24513",
+   "elementFileIds": [
+    "FJ3357"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24472",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_fifth_metacarpal_bone_FMA24472",
+   "label": "Right fifth metacarpal bone",
+   "conceptId": "FMA24472",
+   "elementFileIds": [
+    "FJ3358"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24515",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_fifth_metatarsal_bone_FMA24515",
+   "label": "Right fifth metatarsal bone",
+   "conceptId": "FMA24515",
+   "elementFileIds": [
+    "FJ3359"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24497",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_calcaneus_FMA24497",
+   "label": "Right calcaneus",
+   "conceptId": "FMA24497",
+   "elementFileIds": [
+    "FJ3360"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24446",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_capitate_FMA24446",
+   "label": "Right capitate",
+   "conceptId": "FMA24446",
+   "elementFileIds": [
+    "FJ3361"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13322",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_clavicle_FMA13322",
+   "label": "Right clavicle",
+   "conceptId": "FMA13322",
+   "elementFileIds": [
+    "FJ3362"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24528",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_cuboid_bone_FMA24528",
+   "label": "Right cuboid bone",
+   "conceptId": "FMA24528",
+   "elementFileIds": [
+    "FJ3364"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24474",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_femur_FMA24474",
+   "label": "Right femur",
+   "conceptId": "FMA24474",
+   "elementFileIds": [
+    "FJ3365"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24480",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_fibula_FMA24480",
+   "label": "Right fibula",
+   "conceptId": "FMA24480",
+   "elementFileIds": [
+    "FJ3366"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24448",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_hamate_FMA24448",
+   "label": "Right hamate",
+   "conceptId": "FMA24448",
+   "elementFileIds": [
+    "FJ3367"
+   ]
+  },
+  {
+   "id": "skeleton:FMA23130",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_humerus_FMA23130",
+   "label": "Right humerus",
+   "conceptId": "FMA23130",
+   "elementFileIds": [
+    "FJ3368"
+   ]
+  },
+  {
+   "id": "skeleton:FMA54737",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_inferior_nasal_concha_FMA54737",
+   "label": "Right inferior nasal concha",
+   "conceptId": "FMA54737",
+   "elementFileIds": [
+    "FJ3369"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24523",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_intermediate_cuneiform_bone_FMA24523",
+   "label": "Right intermediate cuneiform bone",
+   "conceptId": "FMA24523",
+   "elementFileIds": [
+    "FJ3370"
+   ]
+  },
+  {
+   "id": "skeleton:FMA53645",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_lacrimal_bone_FMA53645",
+   "label": "Right lacrimal bone",
+   "conceptId": "FMA53645",
+   "elementFileIds": [
+    "FJ3371"
+   ]
+  },
+  {
+   "id": "skeleton:FMA45097",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Sesamoid_bone_of_right_foot_FMA45097",
+   "label": "Sesamoid bone of right foot",
+   "conceptId": "FMA45097",
+   "elementFileIds": [
+    "FJ3372",
+    "FJ3376"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24525",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_lateral_cuneiform_bone_FMA24525",
+   "label": "Right lateral cuneiform bone",
+   "conceptId": "FMA24525",
+   "elementFileIds": [
+    "FJ3373"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24437",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_lunate_FMA24437",
+   "label": "Right lunate",
+   "conceptId": "FMA24437",
+   "elementFileIds": [
+    "FJ3374"
+   ]
+  },
+  {
+   "id": "skeleton:FMA53649",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_maxilla_FMA53649",
+   "label": "Right maxilla",
+   "conceptId": "FMA53649",
+   "elementFileIds": [
+    "FJ3375"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24521",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_medial_cuneiform_bone_FMA24521",
+   "label": "Right medial cuneiform bone",
+   "conceptId": "FMA24521",
+   "elementFileIds": [
+    "FJ3377"
+   ]
+  },
+  {
+   "id": "skeleton:FMA53647",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_nasal_bone_FMA53647",
+   "label": "Right nasal bone",
+   "conceptId": "FMA53647",
+   "elementFileIds": [
+    "FJ3378"
+   ]
+  },
+  {
+   "id": "skeleton:FMA53655",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_palatine_bone_FMA53655",
+   "label": "Right palatine bone",
+   "conceptId": "FMA53655",
+   "elementFileIds": [
+    "FJ3379"
+   ]
+  },
+  {
+   "id": "skeleton:FMA52788",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_parietal_bone_FMA52788",
+   "label": "Right parietal bone",
+   "conceptId": "FMA52788",
+   "elementFileIds": [
+    "FJ3380"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24486",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_patella_FMA24486",
+   "label": "Right patella",
+   "conceptId": "FMA24486",
+   "elementFileIds": [
+    "FJ3381"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24441",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_pisiform_FMA24441",
+   "label": "Right pisiform",
+   "conceptId": "FMA24441",
+   "elementFileIds": [
+    "FJ3382"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24435",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_scaphoid_FMA24435",
+   "label": "Right scaphoid",
+   "conceptId": "FMA24435",
+   "elementFileIds": [
+    "FJ3383"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13395",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_scapula_FMA13395",
+   "label": "Right scapula",
+   "conceptId": "FMA13395",
+   "elementFileIds": [
+    "FJ3384"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24482",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_talus_FMA24482",
+   "label": "Right talus",
+   "conceptId": "FMA24482",
+   "elementFileIds": [
+    "FJ3385"
+   ]
+  },
+  {
+   "id": "skeleton:FMA52738",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_temporal_bone_FMA52738",
+   "label": "Right temporal bone",
+   "conceptId": "FMA52738",
+   "elementFileIds": [
+    "FJ3386"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24477",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_tibia_FMA24477",
+   "label": "Right tibia",
+   "conceptId": "FMA24477",
+   "elementFileIds": [
+    "FJ3387"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24443",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_trapezium_FMA24443",
+   "label": "Right trapezium",
+   "conceptId": "FMA24443",
+   "elementFileIds": [
+    "FJ3388"
+   ]
+  },
+  {
+   "id": "skeleton:FMA23725",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_trapezoid_FMA23725",
+   "label": "Right trapezoid",
+   "conceptId": "FMA23725",
+   "elementFileIds": [
+    "FJ3389"
+   ]
+  },
+  {
+   "id": "skeleton:FMA24439",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_triquetral_FMA24439",
+   "label": "Right triquetral",
+   "conceptId": "FMA24439",
+   "elementFileIds": [
+    "FJ3390"
+   ]
+  },
+  {
+   "id": "skeleton:FMA23467",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_ulna_FMA23467",
+   "label": "Right ulna",
+   "conceptId": "FMA23467",
+   "elementFileIds": [
+    "FJ3391"
+   ]
+  },
+  {
+   "id": "skeleton:FMA52892",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_zygomatic_bone_FMA52892",
+   "label": "Right zygomatic bone",
+   "conceptId": "FMA52892",
+   "elementFileIds": [
+    "FJ3392"
+   ]
+  },
+  {
+   "id": "skeleton:FMA16202",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Sacrum_FMA16202",
+   "label": "Sacrum",
+   "conceptId": "FMA16202",
+   "elementFileIds": [
+    "FJ3393"
+   ]
+  },
+  {
+   "id": "skeleton:FMA52736",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Sphenoid_bone_FMA52736",
+   "label": "Sphenoid bone",
+   "conceptId": "FMA52736",
+   "elementFileIds": [
+    "FJ3394"
+   ]
+  },
+  {
+   "id": "skeleton:FMA9710",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Vomer_FMA9710",
+   "label": "Vomer",
+   "conceptId": "FMA9710",
+   "elementFileIds": [
+    "FJ3395"
+   ]
+  },
+  {
+   "id": "skeleton:FMA7486",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Manubrium_FMA7486",
+   "label": "Manubrium",
+   "conceptId": "FMA7486",
+   "elementFileIds": [
+    "FJ3290"
+   ]
+  },
+  {
+   "id": "skeleton:FMA7487",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Body_of_sternum_FMA7487",
+   "label": "Body of sternum",
+   "conceptId": "FMA7487",
+   "elementFileIds": [
+    "FJ3178"
+   ]
+  },
+  {
+   "id": "skeleton:FMA7488",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Xiphoid_process_FMA7488",
+   "label": "Xiphoid process",
+   "conceptId": "FMA7488",
+   "elementFileIds": [
+    "FJ3153"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8005",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_first_costal_cartilage_FMA8005",
+   "label": "Left first costal cartilage",
+   "conceptId": "FMA8005",
+   "elementFileIds": [
+    "FJ3239"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8031",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_second_costal_cartilage_FMA8031",
+   "label": "Left second costal cartilage",
+   "conceptId": "FMA8031",
+   "elementFileIds": [
+    "FJ3242"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8058",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_third_costal_cartilage_FMA8058",
+   "label": "Left third costal cartilage",
+   "conceptId": "FMA8058",
+   "elementFileIds": [
+    "FJ3245"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8167",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_fourth_costal_cartilage_FMA8167",
+   "label": "Left fourth costal cartilage",
+   "conceptId": "FMA8167",
+   "elementFileIds": [
+    "FJ3248"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8112",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_fifth_costal_cartilage_FMA8112",
+   "label": "Left fifth costal cartilage",
+   "conceptId": "FMA8112",
+   "elementFileIds": [
+    "FJ3251"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8221",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_sixth_costal_cartilage_FMA8221",
+   "label": "Left sixth costal cartilage",
+   "conceptId": "FMA8221",
+   "elementFileIds": [
+    "FJ3254"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8275",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Left_seventh_costal_cartilage_FMA8275",
+   "label": "Left seventh costal cartilage",
+   "conceptId": "FMA8275",
+   "elementFileIds": [
+    "FJ3255"
+   ]
+  },
+  {
+   "id": "skeleton:FMA7875",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_first_costal_cartilage_FMA7875",
+   "label": "Right first costal cartilage",
+   "conceptId": "FMA7875",
+   "elementFileIds": [
+    "FJ3333"
+   ]
+  },
+  {
+   "id": "skeleton:FMA7886",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_second_costal_cartilage_FMA7886",
+   "label": "Right second costal cartilage",
+   "conceptId": "FMA7886",
+   "elementFileIds": [
+    "FJ3335"
+   ]
+  },
+  {
+   "id": "skeleton:FMA7913",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_third_costal_cartilage_FMA7913",
+   "label": "Right third costal cartilage",
+   "conceptId": "FMA7913",
+   "elementFileIds": [
+    "FJ3337"
+   ]
+  },
+  {
+   "id": "skeleton:FMA7976",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_fourth_costal_cartilage_FMA7976",
+   "label": "Right fourth costal cartilage",
+   "conceptId": "FMA7976",
+   "elementFileIds": [
+    "FJ3339"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8070",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_fifth_costal_cartilage_FMA8070",
+   "label": "Right fifth costal cartilage",
+   "conceptId": "FMA8070",
+   "elementFileIds": [
+    "FJ3341"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8194",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_sixth_costal_cartilage_FMA8194",
+   "label": "Right sixth costal cartilage",
+   "conceptId": "FMA8194",
+   "elementFileIds": [
+    "FJ3343"
+   ]
+  },
+  {
+   "id": "skeleton:FMA8248",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Right_seventh_costal_cartilage_FMA8248",
+   "label": "Right seventh costal cartilage",
+   "conceptId": "FMA8248",
+   "elementFileIds": [
+    "FJ3345"
+   ]
+  },
+  {
+   "id": "skeleton:FMA25058",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_axis_FMA25058",
+   "label": "Intervertebral disk of axis",
+   "conceptId": "FMA25058",
+   "elementFileIds": [
+    "FJ3202"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13501",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_fourth_thoracic_vertebra_FMA13501",
+   "label": "Intervertebral disk of fourth thoracic vertebra",
+   "conceptId": "FMA13501",
+   "elementFileIds": [
+    "FJ3203"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13502",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_fifth_thoracic_vertebra_FMA13502",
+   "label": "Intervertebral disk of fifth thoracic vertebra",
+   "conceptId": "FMA13502",
+   "elementFileIds": [
+    "FJ3204"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13503",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_sixth_thoracic_vertebra_FMA13503",
+   "label": "Intervertebral disk of sixth thoracic vertebra",
+   "conceptId": "FMA13503",
+   "elementFileIds": [
+    "FJ3205"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13504",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_seventh_thoracic_vertebra_FMA13504",
+   "label": "Intervertebral disk of seventh thoracic vertebra",
+   "conceptId": "FMA13504",
+   "elementFileIds": [
+    "FJ3206"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13505",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_eighth_thoracic_vertebra_FMA13505",
+   "label": "Intervertebral disk of eighth thoracic vertebra",
+   "conceptId": "FMA13505",
+   "elementFileIds": [
+    "FJ3207"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13506",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_ninth_thoracic_vertebra_FMA13506",
+   "label": "Intervertebral disk of ninth thoracic vertebra",
+   "conceptId": "FMA13506",
+   "elementFileIds": [
+    "FJ3208"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13507",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_tenth_thoracic_vertebra_FMA13507",
+   "label": "Intervertebral disk of tenth thoracic vertebra",
+   "conceptId": "FMA13507",
+   "elementFileIds": [
+    "FJ3209"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13508",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_eleventh_thoracic_vertebra_FMA13508",
+   "label": "Intervertebral disk of eleventh thoracic vertebra",
+   "conceptId": "FMA13508",
+   "elementFileIds": [
+    "FJ3210"
+   ]
+  },
+  {
+   "id": "skeleton:FMA10446",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_FMA10446",
+   "label": "Intervertebral disk",
+   "conceptId": "FMA10446",
+   "elementFileIds": [
+    "FJ3211"
+   ]
+  },
+  {
+   "id": "skeleton:FMA16033",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_first_lumbar_vertebra_FMA16033",
+   "label": "Intervertebral disk of first lumbar vertebra",
+   "conceptId": "FMA16033",
+   "elementFileIds": [
+    "FJ3212"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13896",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_third_cervical_vertebra_FMA13896",
+   "label": "Intervertebral disk of third cervical vertebra",
+   "conceptId": "FMA13896",
+   "elementFileIds": [
+    "FJ3213"
+   ]
+  },
+  {
+   "id": "skeleton:FMA16034",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_second_lumbar_vertebra_FMA16034",
+   "label": "Intervertebral disk of second lumbar vertebra",
+   "conceptId": "FMA16034",
+   "elementFileIds": [
+    "FJ3214"
+   ]
+  },
+  {
+   "id": "skeleton:FMA16035",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_third_lumbar_vertebra_FMA16035",
+   "label": "Intervertebral disk of third lumbar vertebra",
+   "conceptId": "FMA16035",
+   "elementFileIds": [
+    "FJ3215"
+   ]
+  },
+  {
+   "id": "skeleton:FMA16036",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_fourth_lumbar_vertebra_FMA16036",
+   "label": "Intervertebral disk of fourth lumbar vertebra",
+   "conceptId": "FMA16036",
+   "elementFileIds": [
+    "FJ3216"
+   ]
+  },
+  {
+   "id": "skeleton:FMA16037",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_fifth_lumbar_vertebra_FMA16037",
+   "label": "Intervertebral disk of fifth lumbar vertebra",
+   "conceptId": "FMA16037",
+   "elementFileIds": [
+    "FJ3217"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13897",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_fourth_cervical_vertebra_FMA13897",
+   "label": "Intervertebral disk of fourth cervical vertebra",
+   "conceptId": "FMA13897",
+   "elementFileIds": [
+    "FJ3218"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13898",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_fifth_cervical_vertebra_FMA13898",
+   "label": "Intervertebral disk of fifth cervical vertebra",
+   "conceptId": "FMA13898",
+   "elementFileIds": [
+    "FJ3219"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13899",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_sixth_cervical_vertebra_FMA13899",
+   "label": "Intervertebral disk of sixth cervical vertebra",
+   "conceptId": "FMA13899",
+   "elementFileIds": [
+    "FJ3220"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13900",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_seventh_cervical_vertebra_FMA13900",
+   "label": "Intervertebral disk of seventh cervical vertebra",
+   "conceptId": "FMA13900",
+   "elementFileIds": [
+    "FJ3221"
+   ]
+  },
+  {
+   "id": "skeleton:FMA10458",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_first_thoracic_vertebra_FMA10458",
+   "label": "Intervertebral disk of first thoracic vertebra",
+   "conceptId": "FMA10458",
+   "elementFileIds": [
+    "FJ3222"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13495",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_second_thoracic_vertebra_FMA13495",
+   "label": "Intervertebral disk of second thoracic vertebra",
+   "conceptId": "FMA13495",
+   "elementFileIds": [
+    "FJ3223"
+   ]
+  },
+  {
+   "id": "skeleton:FMA13500",
+   "layerId": "skeleton",
+   "systemId": "skeletal",
+   "nodeName": "Intervertebral_disk_of_third_thoracic_vertebra_FMA13500",
+   "label": "Intervertebral disk of third thoracic vertebra",
+   "conceptId": "FMA13500",
+   "elementFileIds": [
+    "FJ3224"
+   ]
+  },
+  {
+   "id": "organs:FMA50801",
+   "layerId": "organs",
+   "systemId": "nervous",
+   "nodeName": "Brain_FMA50801",
+   "label": "Brain",
+   "conceptId": "FMA50801",
+   "elementFileIds": [
+    "FJ1730",
+    "FJ1731",
+    "FJ1732",
+    "FJ1733",
+    "FJ1738",
+    "FJ1739",
+    "FJ1740",
+    "FJ1743",
+    "FJ1744",
+    "FJ1745",
+    "FJ1746",
+    "FJ1747",
+    "FJ1748",
+    "FJ1749",
+    "FJ1750",
+    "FJ1751",
+    "FJ1758",
+    "FJ1759",
+    "FJ1760",
+    "FJ1762",
+    "FJ1767",
+    "FJ1769",
+    "FJ1770",
+    "FJ1775",
+    "FJ1779",
+    "FJ1780",
+    "FJ1781",
+    "FJ1783",
+    "FJ1784",
+    "FJ1785",
+    "FJ1786",
+    "FJ1787",
+    "FJ1788",
+    "FJ1789",
+    "FJ1790",
+    "FJ1791",
+    "FJ1792",
+    "FJ1795",
+    "FJ1797",
+    "FJ1798",
+    "FJ1800",
+    "FJ1801",
+    "FJ1806",
+    "FJ1807",
+    "FJ1808",
+    "FJ1810",
+    "FJ1814",
+    "FJ1817",
+    "FJ1822",
+    "FJ1826",
+    "FJ1828",
+    "FJ1830",
+    "FJ1831",
+    "FJ1833",
+    "FJ1834",
+    "FJ1835",
+    "FJ1836",
+    "FJ1841",
+    "FJ1842"
+   ]
+  },
+  {
+   "id": "organs:FMA7647",
+   "layerId": "organs",
+   "systemId": "nervous",
+   "nodeName": "Spinal_cord_FMA7647",
+   "label": "Spinal cord",
+   "conceptId": "FMA7647",
+   "elementFileIds": [
+    "FJ1737"
+   ]
+  },
+  {
+   "id": "organs:FMA7088",
+   "layerId": "organs",
+   "systemId": "cardiovascular",
+   "nodeName": "Heart_FMA7088",
+   "label": "Heart",
+   "conceptId": "FMA7088",
+   "elementFileIds": [
+    "FJ2417",
+    "FJ2418",
+    "FJ2419",
+    "FJ2420",
+    "FJ2421",
+    "FJ2422",
+    "FJ2423",
+    "FJ2424",
+    "FJ2425",
+    "FJ2426",
+    "FJ2427",
+    "FJ2429",
+    "FJ2430",
+    "FJ2431",
+    "FJ2432",
+    "FJ2433",
+    "FJ2434",
+    "FJ2435",
+    "FJ2436",
+    "FJ2437",
+    "FJ2438",
+    "FJ2439",
+    "FJ2631",
+    "FJ2632",
+    "FJ2633",
+    "FJ2634",
+    "FJ2635",
+    "FJ2636",
+    "FJ2637",
+    "FJ2638",
+    "FJ2639",
+    "FJ2640",
+    "FJ2641",
+    "FJ2642",
+    "FJ2643",
+    "FJ2644",
+    "FJ2645",
+    "FJ2646",
+    "FJ2647",
+    "FJ2648",
+    "FJ2649",
+    "FJ2650",
+    "FJ2651",
+    "FJ2652",
+    "FJ2653",
+    "FJ2654",
+    "FJ2655",
+    "FJ2656",
+    "FJ2667",
+    "FJ2668",
+    "FJ2670",
+    "FJ2671",
+    "FJ2672",
+    "FJ2673",
+    "FJ2674",
+    "FJ2675",
+    "FJ2676",
+    "FJ2677",
+    "FJ2692",
+    "FJ2693",
+    "FJ2694",
+    "FJ2695",
+    "FJ2696",
+    "FJ2697",
+    "FJ2698",
+    "FJ2699",
+    "FJ2700",
+    "FJ2714",
+    "FJ2715",
+    "FJ2716",
+    "FJ2717",
+    "FJ2718",
+    "FJ2719",
+    "FJ2720",
+    "FJ2721",
+    "FJ2722",
+    "FJ2723",
+    "FJ2724",
+    "FJ2727",
+    "FJ2728",
+    "FJ2729",
+    "FJ2731",
+    "FJ2737"
+   ]
+  },
+  {
+   "id": "organs:FMA7394",
+   "layerId": "organs",
+   "systemId": "respiratory",
+   "nodeName": "Trachea_FMA7394",
+   "label": "Trachea",
+   "conceptId": "FMA7394",
+   "elementFileIds": [
+    "FJ2541"
+   ]
+  },
+  {
+   "id": "organs:FMA7309",
+   "layerId": "organs",
+   "systemId": "respiratory",
+   "nodeName": "Right_lung_FMA7309",
+   "label": "Right lung",
+   "conceptId": "FMA7309",
+   "elementFileIds": [
+    "FJ2041",
+    "FJ2044",
+    "FJ2449",
+    "FJ2451",
+    "FJ2452",
+    "FJ2453",
+    "FJ2454",
+    "FJ2455",
+    "FJ2456",
+    "FJ2457",
+    "FJ2458",
+    "FJ2459",
+    "FJ2470",
+    "FJ2481",
+    "FJ2486",
+    "FJ2487",
+    "FJ2488",
+    "FJ2489",
+    "FJ2490",
+    "FJ2491",
+    "FJ2492",
+    "FJ2493",
+    "FJ2494",
+    "FJ2495",
+    "FJ2496",
+    "FJ2497",
+    "FJ2498",
+    "FJ2499",
+    "FJ2500",
+    "FJ2501",
+    "FJ2502",
+    "FJ2503",
+    "FJ2504",
+    "FJ2505",
+    "FJ2506",
+    "FJ2507",
+    "FJ2508",
+    "FJ2509",
+    "FJ2510",
+    "FJ2511",
+    "FJ2512",
+    "FJ2513",
+    "FJ2514",
+    "FJ2515",
+    "FJ2516",
+    "FJ2517",
+    "FJ2518",
+    "FJ2519",
+    "FJ2520",
+    "FJ2521",
+    "FJ2522",
+    "FJ2523",
+    "FJ2524",
+    "FJ2525",
+    "FJ2526",
+    "FJ2967",
+    "FJ2968",
+    "FJ2969",
+    "FJ2970",
+    "FJ2971",
+    "FJ2972",
+    "FJ2973",
+    "FJ2974",
+    "FJ2975",
+    "FJ2976",
+    "FJ2977",
+    "FJ2978",
+    "FJ2979",
+    "FJ2980",
+    "FJ2981",
+    "FJ2982",
+    "FJ2983",
+    "FJ2984",
+    "FJ2985",
+    "FJ2986",
+    "FJ2987",
+    "FJ2988",
+    "FJ2989",
+    "FJ2990",
+    "FJ2991",
+    "FJ2992",
+    "FJ2993",
+    "FJ2994",
+    "FJ2995",
+    "FJ2996",
+    "FJ2997",
+    "FJ2998",
+    "FJ2999",
+    "FJ3000",
+    "FJ3001",
+    "FJ3002",
+    "FJ3003",
+    "FJ3004",
+    "FJ3005",
+    "FJ3006",
+    "FJ3007",
+    "FJ3008",
+    "FJ3009",
+    "FJ3010",
+    "FJ3011",
+    "FJ3012",
+    "FJ3013",
+    "FJ3014",
+    "FJ3015",
+    "FJ3016",
+    "FJ3017",
+    "FJ3018",
+    "FJ3021",
+    "FJ3022",
+    "FJ3023",
+    "FJ3024",
+    "FJ3025",
+    "FJ3026",
+    "FJ3027",
+    "FJ3028",
+    "FJ3029",
+    "FJ3030",
+    "FJ3031",
+    "FJ3032",
+    "FJ3033",
+    "FJ3034",
+    "FJ3035",
+    "FJ3036",
+    "FJ3037",
+    "FJ3038",
+    "FJ3039",
+    "FJ3041",
+    "FJ3042",
+    "FJ3043",
+    "FJ3044",
+    "FJ3045",
+    "FJ3046",
+    "FJ3047",
+    "FJ3048",
+    "FJ3049",
+    "FJ3050",
+    "FJ3051",
+    "FJ3052",
+    "FJ3053",
+    "FJ3054",
+    "FJ3055",
+    "FJ3056",
+    "FJ3057",
+    "FJ3058",
+    "FJ3059",
+    "FJ3060",
+    "FJ3061",
+    "FJ3062",
+    "FJ3063",
+    "FJ3064",
+    "FJ3065",
+    "FJ3066",
+    "FJ3067",
+    "FJ3068",
+    "FJ3069",
+    "FJ3070"
+   ]
+  },
+  {
+   "id": "organs:FMA7310",
+   "layerId": "organs",
+   "systemId": "respiratory",
+   "nodeName": "Left_lung_FMA7310",
+   "label": "Left lung",
+   "conceptId": "FMA7310",
+   "elementFileIds": [
+    "FJ2441",
+    "FJ2442",
+    "FJ2443",
+    "FJ2444",
+    "FJ2445",
+    "FJ2446",
+    "FJ2447",
+    "FJ2448",
+    "FJ2460",
+    "FJ2461",
+    "FJ2462",
+    "FJ2463",
+    "FJ2464",
+    "FJ2465",
+    "FJ2466",
+    "FJ2467",
+    "FJ2468",
+    "FJ2469",
+    "FJ2471",
+    "FJ2472",
+    "FJ2473",
+    "FJ2474",
+    "FJ2475",
+    "FJ2476",
+    "FJ2477",
+    "FJ2478",
+    "FJ2479",
+    "FJ2480",
+    "FJ2482",
+    "FJ2483",
+    "FJ2484",
+    "FJ2485",
+    "FJ2527",
+    "FJ2528",
+    "FJ2529",
+    "FJ2530",
+    "FJ2531",
+    "FJ2532",
+    "FJ2533",
+    "FJ2534",
+    "FJ2535",
+    "FJ2536",
+    "FJ2537",
+    "FJ2538",
+    "FJ2540",
+    "FJ2881",
+    "FJ2882",
+    "FJ2883",
+    "FJ2884",
+    "FJ2885",
+    "FJ2886",
+    "FJ2887",
+    "FJ2888",
+    "FJ2889",
+    "FJ2890",
+    "FJ2891",
+    "FJ2892",
+    "FJ2893",
+    "FJ2894",
+    "FJ2895",
+    "FJ2896",
+    "FJ2897",
+    "FJ2898",
+    "FJ2899",
+    "FJ2900",
+    "FJ2901",
+    "FJ2902",
+    "FJ2903",
+    "FJ2904",
+    "FJ2905",
+    "FJ2906",
+    "FJ2907",
+    "FJ2908",
+    "FJ2909",
+    "FJ2910",
+    "FJ2911",
+    "FJ2912",
+    "FJ2913",
+    "FJ2914",
+    "FJ2915",
+    "FJ2916",
+    "FJ2917",
+    "FJ2918",
+    "FJ2919",
+    "FJ2920",
+    "FJ2921",
+    "FJ2922",
+    "FJ2923",
+    "FJ2926",
+    "FJ2927",
+    "FJ2928",
+    "FJ2929",
+    "FJ2930",
+    "FJ2931",
+    "FJ2932",
+    "FJ2934",
+    "FJ2935",
+    "FJ2936",
+    "FJ2937",
+    "FJ2938",
+    "FJ2939",
+    "FJ2940",
+    "FJ2941",
+    "FJ2942",
+    "FJ2943",
+    "FJ2945",
+    "FJ2946",
+    "FJ2947",
+    "FJ2948",
+    "FJ2949",
+    "FJ2951",
+    "FJ2952",
+    "FJ2953",
+    "FJ2954",
+    "FJ2956",
+    "FJ2957",
+    "FJ2958",
+    "FJ2959",
+    "FJ2960",
+    "FJ2961",
+    "FJ2962",
+    "FJ2963",
+    "FJ2964",
+    "FJ2965"
+   ]
+  },
+  {
+   "id": "organs:FMA7131",
+   "layerId": "organs",
+   "systemId": "digestive",
+   "nodeName": "Esophagus_FMA7131",
+   "label": "Esophagus",
+   "conceptId": "FMA7131",
+   "elementFileIds": [
+    "FJ2563"
+   ]
+  },
+  {
+   "id": "organs:FMA7148",
+   "layerId": "organs",
+   "systemId": "digestive",
+   "nodeName": "Stomach_FMA7148",
+   "label": "Stomach",
+   "conceptId": "FMA7148",
+   "elementFileIds": [
+    "FJ2564"
+   ]
+  },
+  {
+   "id": "organs:FMA7197",
+   "layerId": "organs",
+   "systemId": "digestive",
+   "nodeName": "Liver_FMA7197",
+   "label": "Liver",
+   "conceptId": "FMA7197",
+   "elementFileIds": [
+    "FJ1883",
+    "FJ1893",
+    "FJ1913",
+    "FJ1914",
+    "FJ1916",
+    "FJ2386",
+    "FJ2404",
+    "FJ2405",
+    "FJ2409",
+    "FJ2415",
+    "FJ2416",
+    "FJ2816",
+    "FJ2818",
+    "FJ2819",
+    "FJ2820",
+    "FJ2821",
+    "FJ2822",
+    "FJ2823",
+    "FJ2824",
+    "FJ3071",
+    "FJ3072",
+    "FJ3073",
+    "FJ3074",
+    "FJ3075",
+    "FJ3076",
+    "FJ3077",
+    "FJ3081",
+    "FJ3083",
+    "FJ3086",
+    "FJ3088",
+    "FJ3089",
+    "FJ3090",
+    "FJ3091",
+    "FJ3092",
+    "FJ3093",
+    "FJ3095",
+    "FJ3096",
+    "FJ3102",
+    "FJ3103",
+    "FJ3104",
+    "FJ3105",
+    "FJ3106",
+    "FJ3107",
+    "FJ3108",
+    "FJ3109",
+    "FJ3110",
+    "FJ3111",
+    "FJ3112",
+    "FJ3113",
+    "FJ3114",
+    "FJ3115",
+    "FJ3116",
+    "FJ3117",
+    "FJ3122",
+    "FJ3123",
+    "FJ3124",
+    "FJ3125",
+    "FJ3126",
+    "FJ3127",
+    "FJ3128"
+   ]
+  },
+  {
+   "id": "organs:FMA7196",
+   "layerId": "organs",
+   "systemId": "lymphatic",
+   "nodeName": "Spleen_FMA7196",
+   "label": "Spleen",
+   "conceptId": "FMA7196",
+   "elementFileIds": [
+    "FJ2561"
+   ]
+  },
+  {
+   "id": "organs:FMA7202",
+   "layerId": "organs",
+   "systemId": "digestive",
+   "nodeName": "Gallbladder_FMA7202",
+   "label": "Gallbladder",
+   "conceptId": "FMA7202",
+   "elementFileIds": [
+    "FJ2817"
+   ]
+  },
+  {
+   "id": "organs:FMA7198",
+   "layerId": "organs",
+   "systemId": "digestive",
+   "nodeName": "Pancreas_FMA7198",
+   "label": "Pancreas",
+   "conceptId": "FMA7198",
+   "elementFileIds": [
+    "FJ1895",
+    "FJ1896",
+    "FJ2629",
+    "FJ2630"
+   ]
+  },
+  {
+   "id": "organs:FMA7200",
+   "layerId": "organs",
+   "systemId": "digestive",
+   "nodeName": "Small_intestine_FMA7200",
+   "label": "Small intestine",
+   "conceptId": "FMA7200",
+   "elementFileIds": [
+    "FJ2573",
+    "FJ2574",
+    "FJ2575",
+    "FJ2576",
+    "FJ2577",
+    "FJ2578",
+    "FJ2579",
+    "FJ2580",
+    "FJ2581",
+    "FJ2582",
+    "FJ2583",
+    "FJ2584",
+    "FJ2585",
+    "FJ2586",
+    "FJ2587",
+    "FJ2588",
+    "FJ2589",
+    "FJ2590",
+    "FJ2591",
+    "FJ2592",
+    "FJ2593",
+    "FJ2594",
+    "FJ2595",
+    "FJ2596",
+    "FJ2597",
+    "FJ2598",
+    "FJ2599",
+    "FJ2600",
+    "FJ2601",
+    "FJ2602",
+    "FJ2603",
+    "FJ2604",
+    "FJ2605",
+    "FJ2606",
+    "FJ2607",
+    "FJ2608",
+    "FJ2609",
+    "FJ2610",
+    "FJ2611",
+    "FJ2612",
+    "FJ2613",
+    "FJ2614",
+    "FJ2615",
+    "FJ2616",
+    "FJ2617",
+    "FJ2618",
+    "FJ2619",
+    "FJ2620",
+    "FJ2621",
+    "FJ2622",
+    "FJ2623",
+    "FJ2624",
+    "FJ2625",
+    "FJ2626",
+    "FJ2627",
+    "FJ2628"
+   ]
+  },
+  {
+   "id": "organs:FMA7201",
+   "layerId": "organs",
+   "systemId": "digestive",
+   "nodeName": "Large_intestine_FMA7201",
+   "label": "Large intestine",
+   "conceptId": "FMA7201",
+   "elementFileIds": [
+    "FJ2566",
+    "FJ2567",
+    "FJ2568",
+    "FJ2569",
+    "FJ2570",
+    "FJ2571",
+    "FJ2572"
+   ]
+  },
+  {
+   "id": "organs:FMA7204",
+   "layerId": "organs",
+   "systemId": "urinary",
+   "nodeName": "Right_kidney_FMA7204",
+   "label": "Right kidney",
+   "conceptId": "FMA7204",
+   "elementFileIds": [
+    "FJ3147"
+   ]
+  },
+  {
+   "id": "organs:FMA7205",
+   "layerId": "organs",
+   "systemId": "urinary",
+   "nodeName": "Left_kidney_FMA7205",
+   "label": "Left kidney",
+   "conceptId": "FMA7205",
+   "elementFileIds": [
+    "FJ3145"
+   ]
+  },
+  {
+   "id": "organs:FMA15571",
+   "layerId": "organs",
+   "systemId": "urinary",
+   "nodeName": "Right_ureter_FMA15571",
+   "label": "Right ureter",
+   "conceptId": "FMA15571",
+   "elementFileIds": [
+    "FJ3146"
+   ]
+  },
+  {
+   "id": "organs:FMA15572",
+   "layerId": "organs",
+   "systemId": "urinary",
+   "nodeName": "Left_ureter_FMA15572",
+   "label": "Left ureter",
+   "conceptId": "FMA15572",
+   "elementFileIds": [
+    "FJ3144"
+   ]
+  },
+  {
+   "id": "organs:FMA15900",
+   "layerId": "organs",
+   "systemId": "urinary",
+   "nodeName": "Urinary_bladder_FMA15900",
+   "label": "Urinary bladder",
+   "conceptId": "FMA15900",
+   "elementFileIds": [
+    "FJ3149"
+   ]
+  }
+ ]
+}

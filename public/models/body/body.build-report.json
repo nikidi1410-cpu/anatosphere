@@ -1,0 +1,41 @@
+{
+  "layers": [
+    {
+      "id": "skin",
+      "structures": 1,
+      "sourceTriangles": 203382,
+      "triangles": 40674,
+      "bytes": 967332
+    },
+    {
+      "id": "muscles",
+      "structures": 394,
+      "sourceTriangles": 2396152,
+      "triangles": 479436,
+      "bytes": 12805360
+    },
+    {
+      "id": "skeleton",
+      "structures": 240,
+      "sourceTriangles": 583014,
+      "triangles": 183208,
+      "bytes": 5267704
+    },
+    {
+      "id": "organs",
+      "structures": 19,
+      "sourceTriangles": 844794,
+      "triangles": 178460,
+      "bytes": 4586160
+    }
+  ],
+  "conflicts": [],
+  "unnamedElements": [],
+  "orientation": {
+    "up": "z",
+    "upSign": 1,
+    "anterior": "y",
+    "antSign": -1,
+    "leftLungX": 0.076
+  }
+}

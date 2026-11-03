@@ -1,0 +1,139 @@
+{
+  "app": {
+    "name": "AnatoSphere 3D",
+    "pageTitle": "AnatoSphere 3D: jelajahi anatomi manusia dalam 3D",
+    "home": "Kembali ke halaman awal",
+    "controlsLabel": "Pencarian, lapisan, dan struktur",
+    "infoLabel": "Tentang struktur yang dipilih"
+  },
+  "home": {
+    "title": "Tubuh manusia, lapis demi lapis.",
+    "body": "Putar modelnya, buka lapisan kulit dan otot, lalu ketuk struktur apa pun untuk mengetahui nama dan fungsinya, dalam bahasa Indonesia atau Inggris.",
+    "explore": "Jelajahi tubuh",
+    "tour": "Ikuti tur pengenalan",
+    "note": "Hanya untuk belajar, bukan nasihat medis. Konten tertulis masih berupa draf yang menunggu tinjauan pengajar anatomi."
+  },
+  "language": {
+    "label": "Bahasa"
+  },
+  "layers": {
+    "title": "Lapisan",
+    "skin": "Kulit",
+    "muscles": "Otot",
+    "skeleton": "Rangka",
+    "organs": "Organ dalam",
+    "isolate": "Ini saja",
+    "isolateNamed": "Tampilkan {{layer}} saja",
+    "showAll": "Tampilkan semua lapisan",
+    "loading": "Memuat",
+    "retry": "Coba lagi",
+    "failed": "Satu lapisan gagal diunduh. Periksa koneksi, lalu coba lagi. Lapisan lain tetap bisa dipakai."
+  },
+  "systems": {
+    "title": "Sistem tubuh",
+    "all": "Semua",
+    "skeletal": "Rangka",
+    "muscular": "Otot",
+    "nervous": "Saraf",
+    "cardiovascular": "Kardiovaskular",
+    "respiratory": "Pernapasan",
+    "digestive": "Pencernaan",
+    "urinary": "Kemih",
+    "lymphatic": "Limfatik",
+    "integumentary": "Kulit"
+  },
+  "regions": {
+    "head": "Kepala",
+    "neck": "Leher",
+    "thorax": "Dada",
+    "abdomen": "Perut",
+    "pelvis": "Panggul",
+    "back": "Punggung",
+    "upperLimb": "Lengan dan bahu",
+    "lowerLimb": "Tungkai dan pinggul",
+    "wholeBody": "Seluruh tubuh"
+  },
+  "search": {
+    "label": "Cari struktur tubuh",
+    "placeholder": "Cari: jantung, heart",
+    "results": "Hasil pencarian",
+    "empty": "Tidak ada \"{{query}}\" di model ini. Model ini tidak memuat semua struktur, jadi coba istilah yang lebih umum."
+  },
+  "info": {
+    "emptyTitle": "Belum ada yang dipilih",
+    "emptyBody": "Ketuk struktur pada model, atau cari berdasarkan namanya.",
+    "selectedPart": "Bagian yang dipilih: {{part}}",
+    "focus": "Perbesar ke sini",
+    "clear": "Hapus pilihan",
+    "system": "Sistem",
+    "region": "Daerah",
+    "location": "Letaknya",
+    "function": "Fungsinya",
+    "related": "Struktur terkait",
+    "references": "Referensi",
+    "accessed": "Diakses {{date}}.",
+    "draft": "Draf. Sudah dicocokkan dengan referensi di atas, tetapi belum ditinjau oleh pengajar anatomi.",
+    "noContent": "Bagian ini ada di model 3D, tetapi deskripsinya belum ditulis.",
+    "noTranslation": "Nama Indonesia untuk bagian ini belum tersedia, jadi nama Inggrisnya yang ditampilkan.",
+    "datasetId": "ID dataset: {{id}}"
+  },
+  "browse": {
+    "documented": "Dengan deskripsi ({{count}})",
+    "allParts": "Semua bagian di model ({{count}})"
+  },
+  "tour": {
+    "label": "Tur terpandu",
+    "linkTitle": "Tur terpandu",
+    "linkBody": "Temukan organ utama di dada dan perut, satu per satu.",
+    "start": "Mulai tur",
+    "progress": "Langkah {{step}} dari {{total}}",
+    "previous": "Sebelumnya",
+    "next": "Berikutnya",
+    "finish": "Selesai",
+    "exit": "Keluar dari tur",
+    "doneTitle": "Tur selesai",
+    "doneBody": "Kamu sudah menemukan organ utama di dada dan perut. Lanjutkan menjelajah, atau ulangi turnya.",
+    "restart": "Ulangi tur",
+    "keepExploring": "Lanjut menjelajah",
+    "source": "Sumber:"
+  },
+  "sheet": {
+    "label": "Detail dan kontrol",
+    "tabs": "Panel",
+    "info": "Detail",
+    "layers": "Lapisan",
+    "browse": "Telusuri",
+    "expand": "Tampilkan lebih banyak",
+    "collapse": "Tampilkan lebih sedikit",
+    "hint": "Ketuk struktur pada model untuk melihat namanya.",
+    "readMore": "Baca selengkapnya"
+  },
+  "viewer": {
+    "canvasLabel": "Model 3D interaktif tubuh manusia. Seret untuk memutar, gulir atau cubit untuk memperbesar, lalu pilih struktur untuk melihat namanya. Semua struktur juga tercantum di Telusuri.",
+    "loading": "Memuat model: {{percent}}%",
+    "reset": "Atur ulang tampilan",
+    "focus": "Perbesar ke pilihan",
+    "hideControls": "Sembunyikan kontrol",
+    "showControls": "Tampilkan kontrol",
+    "hideInfo": "Sembunyikan detail",
+    "showInfo": "Tampilkan detail"
+  },
+  "state": {
+    "loading": "Memuat",
+    "unavailableTitle": "Model tidak tersedia",
+    "unavailableBody": "File deskripsinya gagal dimuat. Periksa koneksi, lalu coba lagi.",
+    "retry": "Coba lagi",
+    "crashedTitle": "Tampilan 3D berhenti bekerja",
+    "reload": "Muat ulang halaman",
+    "noWebglTitle": "Tampilan 3D tidak tersedia",
+    "noWebglBody": "Browser atau perangkat ini tidak mendukung WebGL. Pencarian dan Telusuri tetap berfungsi, jadi kamu masih bisa membaca semua struktur yang sudah dideskripsikan."
+  },
+  "about": {
+    "title": "Tentang model ini",
+    "disclaimer": "AnatoSphere 3D dibuat untuk belajar. Aplikasi ini tidak mendiagnosis penyakit atau menyarankan pengobatan, dan tidak menggantikan pendidikan kedokteran.",
+    "limits": "Model ini berdasarkan satu pria dewasa. Beberapa struktur tidak ada di dataset sumber, seperti latissimus dorsi, rectus abdominis, masseter, temporalis, dan otot-otot ekspresi wajah. Paru-paru hanya tampak sebagai saluran napas dan pembuluh darah, karena dataset tidak memiliki mesh untuk permukaan luarnya. Bentuknya sudah disederhanakan agar bisa berjalan di browser.",
+    "sourceLicense": "Lisensi sumber:",
+    "modelLicense": "Lisensi model ini:",
+    "source": "Dataset sumber"
+  }
+}

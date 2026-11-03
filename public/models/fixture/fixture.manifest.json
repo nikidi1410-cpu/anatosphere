@@ -1,0 +1,74 @@
+{
+  "assetId": "fixture",
+  "label": "Test fixture (non-anatomical)",
+  "kind": "test-fixture",
+  "glbUrl": "/models/fixture/fixture.glb",
+  "notice": "Generated geometric test fixture. Contains NO anatomical data.",
+  "layers": [
+    {
+      "id": "layer-a",
+      "label": "Layer A (shared material)",
+      "nodeName": "Fixture_LayerA"
+    },
+    {
+      "id": "layer-b",
+      "label": "Layer B (edge cases)",
+      "nodeName": "Fixture_LayerB"
+    },
+    {
+      "id": "layer-c",
+      "label": "Layer C (outer shell)",
+      "nodeName": "Fixture_LayerC_Shell"
+    }
+  ],
+  "structures": [
+    {
+      "id": "box-1",
+      "layerId": "layer-a",
+      "nodeName": "Fixture_Box1",
+      "label": "Fixture_Box1"
+    },
+    {
+      "id": "box-2",
+      "layerId": "layer-a",
+      "nodeName": "Fixture_Box2",
+      "label": "Fixture_Box2"
+    },
+    {
+      "id": "box-3",
+      "layerId": "layer-a",
+      "nodeName": "Fixture_Box3",
+      "label": "Fixture_Box3"
+    },
+    {
+      "id": "dotted",
+      "layerId": "layer-b",
+      "nodeName": "Fixture.Dotted Name",
+      "label": "Fixture.Dotted Name"
+    },
+    {
+      "id": "dup-1",
+      "layerId": "layer-b",
+      "nodeName": "Fixture_Duplicate",
+      "label": "Fixture_Duplicate"
+    },
+    {
+      "id": "dup-2",
+      "layerId": "layer-b",
+      "nodeName": "Fixture_Duplicate",
+      "label": "Fixture_Duplicate"
+    },
+    {
+      "id": "two-mat",
+      "layerId": "layer-b",
+      "nodeName": "Fixture_TwoMaterialMesh",
+      "label": "Fixture_TwoMaterialMesh"
+    },
+    {
+      "id": "shell",
+      "layerId": "layer-c",
+      "nodeName": "Fixture_Shell",
+      "label": "Fixture_Shell"
+    }
+  ]
+}

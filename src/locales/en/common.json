@@ -1,0 +1,139 @@
+{
+  "app": {
+    "name": "AnatoSphere 3D",
+    "pageTitle": "AnatoSphere 3D: explore human anatomy in 3D",
+    "home": "Back to the start page",
+    "controlsLabel": "Search, layers and structures",
+    "infoLabel": "About the selected structure"
+  },
+  "home": {
+    "title": "The human body, layer by layer.",
+    "body": "Turn the model, peel back skin and muscle, and tap any structure to learn what it is and what it does, in English or Bahasa Indonesia.",
+    "explore": "Explore the body",
+    "tour": "Take the intro tour",
+    "note": "For learning only. Not medical advice. Written content is a draft awaiting review by an anatomy educator."
+  },
+  "language": {
+    "label": "Language"
+  },
+  "layers": {
+    "title": "Layers",
+    "skin": "Skin",
+    "muscles": "Muscles",
+    "skeleton": "Skeleton",
+    "organs": "Internal organs",
+    "isolate": "Only this",
+    "isolateNamed": "Show only {{layer}}",
+    "showAll": "Show all layers",
+    "loading": "Loading",
+    "retry": "Retry",
+    "failed": "A layer couldn't be downloaded. Check your connection, then retry it. The other layers still work."
+  },
+  "systems": {
+    "title": "Body systems",
+    "all": "All",
+    "skeletal": "Skeletal",
+    "muscular": "Muscular",
+    "nervous": "Nervous",
+    "cardiovascular": "Cardiovascular",
+    "respiratory": "Respiratory",
+    "digestive": "Digestive",
+    "urinary": "Urinary",
+    "lymphatic": "Lymphatic",
+    "integumentary": "Skin"
+  },
+  "regions": {
+    "head": "Head",
+    "neck": "Neck",
+    "thorax": "Chest",
+    "abdomen": "Abdomen",
+    "pelvis": "Pelvis",
+    "back": "Back",
+    "upperLimb": "Arm and shoulder",
+    "lowerLimb": "Leg and hip",
+    "wholeBody": "Whole body"
+  },
+  "search": {
+    "label": "Search for a body structure",
+    "placeholder": "Search: heart, jantung",
+    "results": "Search results",
+    "empty": "Nothing named \"{{query}}\" in this model. It doesn't include every structure, so try a broader term."
+  },
+  "info": {
+    "emptyTitle": "Nothing selected",
+    "emptyBody": "Tap a structure on the model, or search for one by name.",
+    "selectedPart": "Selected part: {{part}}",
+    "focus": "Zoom to it",
+    "clear": "Clear",
+    "system": "System",
+    "region": "Region",
+    "location": "Where it is",
+    "function": "What it does",
+    "related": "Related structures",
+    "references": "References",
+    "accessed": "Accessed {{date}}.",
+    "draft": "Draft. Checked against the reference above, but not yet reviewed by an anatomy educator.",
+    "noContent": "This part is in the 3D model, but a description hasn't been written yet.",
+    "noTranslation": "An Indonesian name isn't available for this part yet, so the English name is shown.",
+    "datasetId": "Dataset ID: {{id}}"
+  },
+  "browse": {
+    "documented": "With descriptions ({{count}})",
+    "allParts": "All parts in the model ({{count}})"
+  },
+  "tour": {
+    "label": "Guided tour",
+    "linkTitle": "Guided tour",
+    "linkBody": "Find the main organs of the chest and abdomen, one at a time.",
+    "start": "Start the tour",
+    "progress": "Step {{step}} of {{total}}",
+    "previous": "Previous",
+    "next": "Next",
+    "finish": "Finish",
+    "exit": "Exit tour",
+    "doneTitle": "Tour finished",
+    "doneBody": "You've located the main organs of the chest and abdomen. Keep exploring, or take the tour again.",
+    "restart": "Take it again",
+    "keepExploring": "Keep exploring",
+    "source": "Source:"
+  },
+  "sheet": {
+    "label": "Details and controls",
+    "tabs": "Panels",
+    "info": "Details",
+    "layers": "Layers",
+    "browse": "Browse",
+    "expand": "Show more",
+    "collapse": "Show less",
+    "hint": "Tap a structure on the model to see what it is.",
+    "readMore": "Read more"
+  },
+  "viewer": {
+    "canvasLabel": "Interactive 3D model of the human body. Drag to rotate, scroll or pinch to zoom, and select a structure to see its name. Every structure is also listed under Browse.",
+    "loading": "Loading model: {{percent}}%",
+    "reset": "Reset view",
+    "focus": "Zoom to selection",
+    "hideControls": "Hide controls",
+    "showControls": "Show controls",
+    "hideInfo": "Hide details",
+    "showInfo": "Show details"
+  },
+  "state": {
+    "loading": "Loading",
+    "unavailableTitle": "The model isn't available",
+    "unavailableBody": "Its description file couldn't be loaded. Check your connection and try again.",
+    "retry": "Try again",
+    "crashedTitle": "The 3D view stopped working",
+    "reload": "Reload the page",
+    "noWebglTitle": "3D view unavailable",
+    "noWebglBody": "This browser or device doesn't provide WebGL. Search and Browse still work, so you can read about every documented structure."
+  },
+  "about": {
+    "title": "About this model",
+    "disclaimer": "AnatoSphere 3D is for learning. It doesn't diagnose conditions or recommend treatment, and it doesn't replace medical education.",
+    "limits": "The model is based on one adult male. Some structures aren't in the source dataset, such as latissimus dorsi, rectus abdominis, masseter, temporalis and the muscles of facial expression. The lungs appear as airways and blood vessels only, because the dataset has no mesh for their outer surface. Shapes have been simplified to run in a browser.",
+    "sourceLicense": "Source license:",
+    "modelLicense": "This model's license:",
+    "source": "Source dataset"
+  }
+}

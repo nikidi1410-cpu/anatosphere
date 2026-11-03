@@ -2,6 +2,8 @@
 
 An interactive 3D human anatomy explorer for the web, in English and Indonesian.
 
+**[Open the live app](https://anatosphere-smoky.vercel.app)**
+
 Rotate a full-body model, turn its layers on and off, search for a structure in either language, and read what it does and where the information comes from.
 
 ![The AnatoSphere 3D explorer](docs/screenshot.png)

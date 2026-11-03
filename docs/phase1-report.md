@@ -107,5 +107,5 @@ npm run test:e2e          # browser tests
 
 1. No performance work is needed now, since the test phone averages above 60 fps. If a weaker phone runs below about 30 fps, merge muscle meshes per region at a distance or use `BatchedMesh`.
 2. Have an anatomy educator review the content, then move records from `draft` to `reviewed`.
-3. Done on 2026-11-03: git set up and the application code released under the MIT License.
+3. Done on 2026-11-03: git set up, application code released under the MIT License, and the app deployed to https://anatosphere-smoky.vercel.app. The production browser tests pass against that address.
 4. Start Phase 2: quizzes, more tours, exploded view and opacity.

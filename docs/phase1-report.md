@@ -107,5 +107,5 @@ npm run test:e2e          # browser tests
 
 1. No performance work is needed now, since the test phone averages above 60 fps. If a weaker phone runs below about 30 fps, merge muscle meshes per region at a distance or use `BatchedMesh`.
 2. Have an anatomy educator review the content, then move records from `draft` to `reviewed`.
-3. Done on 2026-11-03: git set up, application code released under the MIT License, and the app deployed to https://anatosphere-smoky.vercel.app. The production browser tests pass against that address.
+3. Done on 2026-11-03: git set up, application code released under the MIT License, and the app deployed to https://anatosphere-smoky.vercel.app. Against that address, 15 of 18 production browser test runs passed. The other 3 stopped at the 60-second limit waiting for the models to appear. A timing run on the same connection took 2.7 to 23.6 seconds to first draw, compared with about 1.6 seconds from a local server, and individual model downloads took 1 to 13 seconds. The delay is in the download, not in decoding or rendering, but it is not yet known whether the hosting or the test connection causes it.
 4. Start Phase 2: quizzes, more tours, exploded view and opacity.
